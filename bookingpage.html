@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bestill bord</title>
+
+  <style>
+
+    html{
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0 auto;
+      font-size: 20px;
+    }
+
+    .all {
+      background-color: rgb(251, 235, 212);
+      text-align: center;
+    }
+
+    #header{
+      background-color: black;
+      color: white;
+      text-align: left;
+      font-size: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    #header > img{ /* Plasserer menyen på lik høyde med logoen, og bestemmer avstanden mellom menyen og bildet */
+      vertical-align: middle;
+    }
+
+    #header ul { /* Gjør at topp-og bunn-margen følges*/
+      display: inline-block;
+    }
+
+    #header ul > li { /* Fjerner bullet points og listen legges vannrett */
+      display: inline-block;
+    }
+
+    #header a { /* Skaper mellomrom mellom punktene og fargen blir den samme som hvit (fargen satt i #header) */
+      color: inherit;
+      padding: 10px 25px;
+    }
+
+    #heading{
+      font-size: 30px;
+    }
+
+    .logo{ /* Plassering av logo */
+      margin: 20px;
+      height: 90px;
+    }
+
+    .footer{
+      left: 0px;
+      bottom: 0px;
+      right: 0px;
+      width: 100%;
+      background-color: black;
+      color: white;
+      display: flex;
+      padding: 20px 50px;
+      text-align: center;
+      box-sizing: border-box;
+    }
+
+    .footer h3{
+      font-weight: 300;
+      margin-bottom: 30px;
+      letter-spacing: 1px;
+      margin-top: 20px;
+    }
+
+    .kontaktdetaljer{
+      flex-grow: 2;
+    }
+
+    .kontaktdetaljer a{
+      color: white;
+    }
+
+    #bredde { /* Sentrerer teksten og skaper en marg */
+      margin-left: 320px;
+      margin-right: 320px;
+      text-align: center;
+    }
+
+    form {
+      width: 600px; /* Skaper en fast bredde på formen */
+      margin: 0 auto; /* Sentrerer skjemaet */
+      padding-bottom: 25px; /* Skaper et mellomrom mellom reservasjonen og footeren */
+    }
+
+    div.boxes { /* Definerer de større input-boksene i reservasjonen */
+      margin: 20px 0;
+      text-align: center;
+      width: 600px;
+    }
+
+    div.smallboxes { /* Definerer de mindre input-boksene i reservasjonen */
+      width: 196px;
+      display: inline-block;
+    }
+
+    label {
+      display: block;
+      padding-bottom: 10px;
+      font-size: 20px;
+    }
+
+    input, select, textarea {
+      border: 2px solid #777777; /* Definerer fargen på kanten rundt boksene */
+      box-sizing: border-box; /* Total bredde og høyde på boksene */
+      font-size: 20px; /* Skriftstørrelse i boksene */
+      width: 100%; /* Gjør at boksene går fra venstre marg til høyre marg */
+      padding: 10px; /* Definerer høyden på boksene */
+      font-family: Times New Roman; /* Fonttype i boksene */
+    }
+
+    div.smallboxes input {
+      width: 100%; /* Hvor store 'Antall gjester', 'Ønsket tidspunkt' og 'Ønsket dato'-boksene er */
+      display: inline-block; /* Gjør at elementene kan sitte ved siden av hverandre */
+    }
+
+    textarea { /* Hvor stort område man kan skrive i 'Kommentar' */
+      height: 200px;
+    }
+
+    hr { /* Prikkete linje mellom de ulike delene i skjemaet*/
+      border: 1px dotted #ccc;
+    }
+
+    button { /* Design av Reservasjon-knappen */
+      height: 50px;
+      background: black;
+      border: none;
+      color: rgb(251,235,212);
+      font-size: 20px;
+      cursor: pointer;
+      font-family: Times New Roman;
+    }
+
+    button:hover { /* Definerer rammen rundt Reservasjon-knappen */
+      border: 3px solid rgb(251,235,212);
+    }
+
+    #italic {
+      font-style: italic;
+    }
+
+    #link { /* Setter fargen til svart (altså default fargen) */
+      color: inherit;
+    }
+  </style>
+
+</head>
+
+<body>
+<div class="all">
+  <header>
+
+    <div id="header">
+      <img class="logo" src="Logo.png" alt="Logo OsloMet Kafé">
+      <ul>
+        <li> <a href="../Welcomepage/welcome.html" style="text-decoration:none;">Velkommen</a></li>
+        <li> <a href="../Menupage/Menu.html" style="text-decoration:none;">Meny</a></li>
+        <li> <a href="../Bookingpage/bookingpage.html" style="text-decoration:none;">Bestill bord</a></li>
+        <li> <a href="#AccessibilityPage" style="text-decoration:none;">Accessibility Page</a></li>
+        <li> <a href="../Topicalpage/narthanaTopicalPage.html" style="text-decoration:none;">Topical Page</a></li>
+      </ul>
+    </div>
+
+    <img src="bestillbord.png" alt="Personer som nyter ett deilig måltid." title="Fotograf: Alex Haney" width=100% height=300px>
+
+  </header>
+<div id="bredde">
+  <div id="heading">
+<h1 id="BestillBord">BESTILL BORD</h1>
+    </div>
+
+  <p>På OsloMet Kafé møter du et varmt og behagelig lokale, med en like varm og behagelig betjening. Vi ønsker å gi
+    våre gjester et godt måltid, en god opplevelse og ikke minst ønsker vi å oppfylle våre gjesters behov. Enten om det
+    er en rask kaffekopp du kjøper før du må løpe til forelesning, eller om det er et lengre opphold hvor du og vennene
+    dine vil spise og snakke om alt og ingenting. Vi er her for deg uansett hva ditt behov er i dag! </p>
+
+  <p>OsloMet Kafé er 130km<sup>2</sup> og kan servere opptil 80 gjester av gangen. Det er totalt 18 bord, hvorav seks er
+  utendørs og tolv er innendørs. Vi holder til på Pilestredet 46 med Frydenlund som nærmeste trikkeholdeplass. Finn
+    raskeste reiserute ved å klikke <a id="link" target=”_blank” href="https://www.google.no/maps/dir//Pilestredet+46,+0167+Oslo/@59.9210891,10.7312032,17z/data=!4m17!1m7!3m6!1s0x46416e7913e2a529:0x15d03622a70f16df!2sPilestredet+46,+0167+Oslo!3b1!8m2!3d59.9210891!4d10.7333919!4m8!1m0!1m5!1m1!1s0x46416e7913e2a529:0x15d03622a70f16df!2m2!1d10.7333919!2d59.9210891!3e3?hl=no">her</a>.</p>
+
+  <iframe
+    width=100%
+    height=200px
+    style="border:0"
+    allowfullscreen
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d942.9058947772726!2d10.733225219587563!3d59.92114503466633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416e7913e2a529%3A0x15d03622a70f16df!2sPilestredet%2046%2C%200167%20Oslo!5e0!3m2!1sno!2sno!4v1668001531977!5m2!1sno!2sno">
+  </iframe> <!--Viser kafeens posisjon via Google Maps -->
+
+<p>Registrer din bordbestilling i skjemaet under. Ønsker du å booke bord for 8 personer eller flere? Vennligst send oss
+  en e-post til <a id="link" href="mailto: oslometcafe@oslomet.no">oslometcafe@oslomet.no</a>. Husk å oppgi din kontaktinformasjon!</p>
+
+<p id="italic">Det gjøres oppmerksom på at dersom du reserverer bord på vår uteservering kan vi dessverre ikke garantere bord inne ved dårlig vær. </p>
+
+<p>Ønsker du bord til bare noe å drikke? Da er du hjertelig velkommen på drop in! (Vennligst noter at ved bordreservasjon er det spiseplikt).</p>
+
+<p>Vi gleder oss til å høre fra deg!</p>
+</div>
+
+<form name="Reservation" action="http://www.oslometkafe.no/form.php" method=get> <!-- Skjema for reservasjon av bord -->
+  <div class="boxes">
+    <hr>
+    <label for="name">Fullt navn</label>
+    <input type="text" id="name" name="visitor_name" placeholder="Ola Nordmann" pattern=[A-Å\sa-å]{3,20} required>
+  </div>
+  <div class="boxes">
+    <label for="email">E-postadresse</label>
+    <input type="email" id="email" name="visitor_email" placeholder="ola.nordmann@email.no" required>
+  </div>
+  <div class="boxes">
+    <label for="phone">Telefonnummer</label>
+    <input type="tel" id="phone" name="visitor_phone" placeholder="+47 48148657" required>
+  </div>
+  <hr>
+  <div class="smallboxes">
+    <label for="guests">Antall gjester</label>
+    <input type="number" id="guests" name="total_guests" placeholder="2" min="1" max="7" required>
+  </div>
+  <div class="smallboxes">
+    <label for="reservation-date">Ønsket dato</label>
+    <input type="date" id="reservation-date" name="reservation_date" required>
+  </div>
+    <div class="smallboxes">
+      <label for="reservation-time">Ønsket tidspunkt</label>
+      <select id="reservation-time" name="reservation_time" required>
+        <option value="09:00">09:00</option>
+        <option value="09:30">09:30</option>
+        <option value="10:00">10:00</option>
+        <option value="10:30">10:30</option>
+        <option value="11:00">11:00</option>
+        <option value="11:30">11:30</option>
+        <option value="12:00">12:00</option>
+        <option value="12:30">12:30</option>
+        <option value="13:00">13:00</option>
+        <option value="13:30">13:30</option>
+      </select>
+  </div>
+  <div class="boxes">
+    <label for="table-selection">Bordplassering</label>
+    <select id="table-selection" name="table_preference" required>
+      <option value="">Vennligst velg ett av alternativene</option>
+      <option value="inside">Jeg ønsker bord innendørs</option>
+      <option value="outside">Jeg ønsker bord utendørs</option>
+      <option value="indifferent">Jeg er likegyldig til bordplassering</option>
+    </select>
+  </div>
+  <hr>
+  <div class="boxes">
+    <label for="message">Kommentar</label>
+    <textarea id="message" name="visitor_message" placeholder="Fortell oss gjerne om det er noe vi burde vite!"></textarea>
+  </div>
+  <button type="submit">Bekreft reservasjon</button> <!--Sender inn reservasjonen-->
+</form>
+
+  <footer>
+    <div class="footer">
+      <div class="adresse">
+        <h3>OSLOMET KAFÉ</h3>
+        <p><address>Pilestredet 46, 0167 Oslo</address></p>
+      </div>
+      <div class="kontaktdetaljer">
+        <h3>KONTAKT OSS</h3>
+        <p>Epost: <a href="mailto: oslometkafe@oslomet.no">oslometkafe@oslomet.no</a></p>
+        <p>Telefon: 12 34 56 78</p>
+      </div>
+      <div class="aapningstider">
+        <h3>ÅPNINGSTIDER:</h3>
+        <p>Mandag - Fredag: 09.00-14.00</p>
+      </div>
+    </div>
+</div>
+</footer>
+
+</div>
+
+</body>
+</html>

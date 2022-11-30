@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>OsloMet Kafé - Hjem</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velkommen</title>
+  
+<style> 
+  html{
+    scroll-behavior: smooth;
+  }
+
+  body{
+    margin: 0 auto;
+    font-size: 20px;
+  }
+
+  .all {
+    background-color: rgb(251, 235, 212);
+    text-align: center;
+  }
+
+  #header{
+    background-color: black;
+    color: white;
+    text-align: left;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #header > img{ /* Plasserer menyen på lik høyde med logoen, og bestemmer avstanden mellom menyen og bildet */
+    vertical-align: middle;
+  }
+
+  #header ul { /* Gjør at topp-og bunn-margen følges*/
+    display: inline-block;
+  }
+
+  #header ul > li { /* Fjerner bullet points og listen legges vannrett */
+    display: inline-block;
+  }
+
+  #header a { /* Skaper mellomrom mellom punktene og fargen blir den samme som hvit (fargen satt i #header) */
+    color: inherit;
+    padding: 10px 25px;
+  }
+
+  #heading{
+    font-size: 30px;
+  }
+
+  .logo{ /* Plassering av logo */
+    margin: 20px;
+    height: 90px;
+  }
+
+  .footer{
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    margin: 0px;
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 20px 50px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  .footer h3{
+      font-weight: 300;
+      margin-bottom: 30px;
+      letter-spacing: 1px;
+      margin-top: 20px;
+  }
+
+  .kontaktdetaljer{
+      flex-grow: 2;
+  }
+
+  .kontaktdetaljer a{
+      color: white;
+  }
+
+  .paragraf{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    line-height: 170%;
+  }
+
+  .h2{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 20px;
+  }
+
+  .litenBilde {
+    width: 350px;
+    height: 250px;
+  }
+
+</style>
+</head>
+
+<body>
+
+    <div class="all">
+    <header>
+
+        <div id="header">
+          <img class="logo" src="Logo.png" alt="Logo OsloMet Kafé">
+          <ul>
+            <li> <a href="../Welcomepage/welcome.html" style="text-decoration:none;">Velkommen</a></li>
+            <li> <a href="../Menupage/Menu.html" style="text-decoration:none;">Meny</a></li>
+            <li> <a href="../Bookingpage/bookingpage.html" style="text-decoration:none;">Bestill bord</a></li>
+            <li> <a href="#AccessibilityPage" style="text-decoration:none;">Accessibility Page</a></li>
+            <li> <a href="../Topicalpage/narthanaTopicalPage.html" style="text-decoration:none;">Topical Page</a></li>
+          </ul>
+        </div>
+      
+        <img src="header.gif" alt="Bildet av et bord med uskarp bakgrunn" title="Fotograf: ?" width=100% height=300px>
+      
+    </header>
+
+    <div id="heading">
+      <h1 id="Velkommen">VELKOMMEN TIL OSS</h1>
+   </div>
+
+  <div class="paragraf">
+   <p>OsloMet Kafé finner du i vårt sentrale, lyse og romslige lokale på storbyuniversitetet. Her kan du forsyne deg med alt fra varmmat, suppe, salat, og brød til å kun ta deg noe å drikke fra vår allsidige kaffemeny. Kaféen har en intim og hyggelig atmosfære og kan både fungere som et fint avbrekk fra den hektigste studiehverdagen eller et sted hvor du og gruppen din kan fokusere som aldri før, og kanskje også få en ekstra energiboost fra vårt gode utvalg.<br> 
+    Velkommen til OsloMet Kafé! Kom og besøk oss på Pilestredet 46!</p>
+  </div>
+
+    <h2>Om Restauranten</h2>
+    
+    <div class="paragraf">
+      <p>På OsloMet Kafé møter du et varmt og behagelig lokalet, med en like varm og behagelig betjening. 
+    Vi ønsker å gi våre gjester et godt måltid,en god opplevelse og ikke minst ønsker vi å oppfylle våre gjesters behov. Enten om det er en rask kaffekopp du kjøper før du må løpe til
+    forelesning, eller om det er et lengre opphold hvor du og vennene dine vil spise og snakke om alt og ingenting. Vi er her for deg uansett
+    hva ditt behov i dag er! På vårt kjøkken blir maten behandlet med omtanke, vi vil servere god og ærlig mat. Velkommen til OsloMet Kafé!</p>
+  </div>
+
+  <h2>Historien bak OsloMet Kafé</h2>
+
+  <div class="paragraf">
+    <p>OsloMet Kafé var OsloMets aller første spisested, og har mer historie bak seg enn det mange ville tro. Kafén har eksistert i lang
+  tid, langt lengre enn OsloMet og har dermed vært igjennom en rekke endringer og navn. Vi åpnet dørene for første gang i 1861, på Pilestredet 52, under Frydenlund Bryggeri Kafé.
+  kun 2 år etter Frydenlund Bryggeri ble grunnlagt. Vår kafé var et sted fabrikkarbeiderne kunne spise og drikke i pausene sine. Det var et sted for sosiale relasjoenr og bånd,
+  et sted arbeiderne kunne få et avbrekk fra arbeidet, og bli motivert til å fortsette dagen. I lang tid fungerte kafén vår kun for fabrikkarbeiderne, men i 1977 omgikk vi en del endringer,
+  kafén ble åpnet for alle og enhver som trengte påfyll i hverdagen, vi endret lokalet til Pilestredet 46, og kafén endret navn til Frydenlund kafé.
+  I 2011 tok <abbr title="Høgskolen i Oslo og Akershus">HiOA</abbr> over kafén da de begynte å bygge ut skolelokaler, og senere i 2018 endret kafén navn fra 
+  <abbr title="Høgskolen i Oslo og Akershus">HiOA</abbr> kafé, til det vi i dag kjenner godt, OsloMet kafé.
+  Kafén er fortsatt tilgjengelig for alle som skulle ønske å besøke, men vår hovedmålgruppe er så klart studentene som bruker studiehverdagen sin i lokalene på Pilestredet.
+  På vår kafé har vi alltid verdsatt godt arbeid og dette ser vi også i våre kunder, fra hardt arbeidende fabrikkarbeidere, til våre ambisiøse studenter.
+  Det er en glede for oss å kunne fortsette å gi et avbrekk i arbeidet, like mye i dag som for 150 år siden!</p>
+</div>
+
+<img class="litenBilde" src="bilde1.gif">
+<img class="litenBilde" src="bilde2.jpg">
+<img class="litenBilde" src="bilde3.jpg">
+<img class="litenBilde" src="bilde4.jpg">
+
+<footer>
+  <div class="footer">
+      <div class="adresse">
+          <h3>OSLOMET KAFÉ</h3>
+          <p><address>Pilestredet 46, 0167 Oslo</address></p>
+      </div>
+      <div class="kontaktdetaljer">
+          <h3>KONTAKT OSS</h3>
+          <p>Epost: <a href="mailto: oslometkafe@oslomet.no">oslometkafe@oslomet.no</a></p>
+          <p>Telefon: 12 34 56 78</p>
+      </div>
+      <div class="aapningstider">
+          <h3>ÅPNINGSTIDER:</h3>
+          <p>Mandag - Fredag: 09.00-14.00</p>
+      </div>
+  </div>
+  </div>
+  </footer>
+</body>
+</html>

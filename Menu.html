@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meny</title>
+<style>
+
+    html{
+        scroll-behavior: smooth;
+    }
+
+    body {
+        margin: 0 auto;
+        font-size: 20px;
+    }
+
+    .all {
+        background-color: rgb(251, 235, 212);
+        text-align: center;
+    }
+
+    #header{
+        background-color: black;
+        color: white;
+        text-align: left;
+        font-size: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #header > img{ /* Plasserer menyen på lik høyde med logoen, og bestemmer avstanden mellom menyen og bildet */
+        vertical-align: middle;
+    }
+
+    #header ul { /* Gjør at topp-og bunn-margen følges*/
+        display: inline-block;
+    }
+
+    #header ul > li { /* Fjerner bullet points og listen legges vannrett */
+        display: inline-block;
+    }
+
+    #header a { /* Skaper mellomrom mellom punktene og fargen blir den samme som hvit (fargen satt i #header) */
+        color: inherit;
+        padding: 10px 25px;
+    }
+
+    #heading{
+        font-size: 30px;
+    }
+
+    .logo{ /* Plassering av logo */
+        margin: 20px;
+        height: 90px;
+    }
+  #menySnap{
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  #menySnap a{
+    color: black;
+  }
+
+  #kaffeMeny{
+    display: inline-block;
+  }
+
+  .kaffe{
+    display: flex;
+    gap: 200px;
+  }
+
+  .allergi{
+    margin-top: 100px;
+    margin-bottom: 60px;
+  }
+
+  .allergener{
+    font-style: italic;
+  }
+
+  .vegetar{
+    color: green;
+    font-weight: bold;
+    font-size: larger;
+  }
+
+  .footer{
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 20px 50px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  .footer h3{
+      font-weight: 300;
+      margin-bottom: 30px;
+      letter-spacing: 1px;
+      margin-top: 20px;
+  }
+
+  .kontaktdetaljer{
+      flex-grow: 2;
+  }
+
+  .kontaktdetaljer a{
+      color: white;
+  }
+
+  h3{
+    margin-top: 50px;
+  }
+
+  h2{
+    margin-top: 80px;
+    font-size: 32px;
+  }
+
+</style>
+</head>
+
+<body>
+
+    <div class="all">
+    <header>
+
+        <div id="header">
+          <img class="logo" src="Logo.png" alt="Logo OsloMet Kafé">
+          <ul>
+            <li> <a href="../Welcomepage/welcome.html" style="text-decoration:none;">Velkommen</a></li>
+            <li> <a href="../Menupage/Menu.html" style="text-decoration:none;">Meny</a></li>
+            <li> <a href="../Bookingpage/bookingpage.html" style="text-decoration:none;">Bestill bord</a></li>
+            <li> <a href="#AccessibilityPage" style="text-decoration:none;">Accessibility Page</a></li>
+            <li> <a href="../Topicalpage/narthanaTopicalPage.html" style="text-decoration:none;">Topical Page</a></li>
+          </ul>
+        </div>
+
+        <img src="Menybilde.png" alt="Innside av kaféen" title="Fotograf: Patrick Tomasso" width=100% height=300px>
+
+    </header>
+    <div id="heading">
+      <h1 id="Meny">MENY</h1>
+   </div>
+   <div id="menySnap">
+    <h4><a href="#lunsjretter" style="text-decoration:none;">Lunsjretter</a></h4>
+    <h4><a href="#varmMat" style="text-decoration:none;">Varm mat</a></h4>
+    <h4><a href="#kaffeMeny" style="text-decoration:none;">Kaffe meny</a></h4>
+   </div>
+
+    <div id="lunsjretter">
+      <h2>Lunsjretter</h2>
+      <h3>Ost & Skinke Baguette</h3>
+        <p>Fin / grov baguette påsmurt med ost og skinke</p>
+        <p class="allergener">(Allergener: G, M)</p>
+        <p>kr 75.-</p>
+      <h3>Rekesmørbrød</h3>
+        <p>Smørbrød med håndpillede reker, egg, majones og sitron </p>
+        <p class="allergener">(Allergener: G, E)</p>
+        <p>kr 98.-</p>
+      <h3>Vegetarsmørbrød <span class="vegetar">(v)</span></h3>
+        <p>Smørbrød med stekte grønnsaker, tomatsalsa, løkringer og mangodressing </p>
+        <p class="allergener">(Allergener: G)</p>
+        <p>kr 98.-</p>
+      <h3>Kyllingssalat</h3>
+        <p>Salat med kylling, spekeskinke, fetaost, cashewnøtter og aioli </p>
+        <p class="allergener">(Allergener: E, M, N)</p>
+        <p>kr 105.-</p>
+    </div>
+      <br>
+    <div id="varmMat">
+      <h2>Varm mat</h2>
+      <h3>Hjemmelaget grønnsakssuppe <span class="vegetar">(v)</span></h3>
+        <p>Servert med glutenfritt landbrød og kokt egg </p>
+        <p class="allergener">(Allergener: E)</p>
+        <p>kr 105.-</p>
+      <h3>Ostesmørbrød</h3>
+        <p>Ostesmørbrød med sennepsdressing, skinke, mozerella og grønn salat </p>
+        <p class="allergener">(Allergener: G, M)</p>
+        <p>kr 120.-</p>
+      <h3>Klassisk Burger</h3>
+        <p>Burger med ost, salat og chilimajones </p>
+        <p class="allergener">(Allergener: E, G, M)</p>
+        <p>kr 140.-</p>
+      <h3>Fiske Burger</h3>
+        <p>Fiskeburger med ost, salat og chilimajones </p>
+        <p class="allergener">(Allergener: F, G, M)</p>
+        <p>kr 140.-</p>
+      <h3>Vegetarburger <span class="vegetar">(v)</span></h3>
+        <p>Vegetarburger med ost, salat og chilimajones </p>
+        <p class="allergener">(Allergener: E, G, M)</p>
+        <p>kr 140.-</p>
+    </div>
+    <br>
+    <div id="kaffeMeny">
+      <h2>Kaffemeny</h2>
+      <div class="kaffe">
+        <div>
+        <h3>Svart kaffe</h3>
+          <p>kr 25.-</p>
+        <h3>Kaffe latte</h3>
+          <p>kr 37.-</p>
+          <p class="allergener">(Allergener: M)</p>
+        <h3>Cappuccino</h3>
+          <p>kr 35.-</p>
+          <p class="allergener">(Allergener: M)</p>
+        </div>
+        <div>
+          <h3>Americano</h3>
+          <p>kr 28.-</p>
+        <h3>Islatte</h3>
+          <p>kr 39.-</p>
+          <p class="allergener">(Allergener: M)</p>
+        <h3>Kakao m/krem</h3>
+          <p>kr 38.-</p>
+          <p class="allergener">(Allergener: M)</p>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="allergi">
+    <p>Allergener:</p>
+      <p>Egg(E) Fisk(F) Gluten(G) Melk(M) Nøtter(N)</p>
+      <p><span class="vegetar">(v)</span> = Vegetar</p>
+    </div>
+
+    <footer>
+    <div class="footer">
+        <div class="adresse">
+            <h3>OSLOMET KAFÉ</h3>
+            <p><address>Pilestredet 46, 0167 Oslo</address></p>
+        </div>
+        <div class="kontaktdetaljer">
+            <h3>KONTAKT OSS</h3>
+            <p>Epost: <a href="mailto: oslometkafe@oslomet.no">oslometkafe@oslomet.no</a></p>
+            <p>Telefon: 12 34 56 78</p>
+        </div>
+        <div class="aapningstider">
+            <h3>ÅPNINGSTIDER:</h3>
+            <p>Mandag - Fredag: 09.00-14.00</p>
+        </div>
+    </div>
+    </div>
+    </footer>
+</body>
+</html>

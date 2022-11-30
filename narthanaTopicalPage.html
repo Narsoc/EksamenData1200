@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+            font-family: sans-serif;
+        }
+        #scroll{
+            scroll-snap-type: y mandatory;
+            height: 100vh;
+            overflow-y: scroll;
+            scroll-behavior: smooth;
+            position: relative;
+        }
+        .hovedTekst{
+            margin: 100px;
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.631);
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            line-height: 1.5em;
+        }
+        #universalDesign{
+          background-image: url(./damerullestol.jpg); 
+          background-size: cover; 
+        }
+        #rawanda{
+            background-image: url(./rawanda.jpg);
+            background-size: cover; 
+        }
+        #Kalisa{
+            background-image: url(./Kalisa.jpg);
+            background-size: cover; 
+        }
+        #norway{
+            background-image: url(./Norway.jpg);
+            background-size: cover; 
+        }
+        #Ola{
+            background-image: url(./Ola.png);
+        }
+        #syria{
+            background-image: url(./syria.jpg);
+            background-size: cover; 
+        }
+        #Mohamed{
+            background-image: url(./Mohamed.png);
+            background-size: cover; 
+        }
+        #maps{
+            background-image: url(./Maps.png);
+            background-size: cover;
+        }
+        .bakgrunnsbildeStørrelse{
+            background-size: 100% 100%;
+            height: 100vh;
+            scroll-snap-align: start;
+        }
+        .plasseringsBoks{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .bildeText{
+            background-size: cover;
+            height: 550px;
+            width: 310px;
+            background-position: center;
+            position: relative;
+            box-shadow: 0px 0px 60px black;
+            border-radius: 5px;
+        }
+        .yytrePlaseringsboksMaps{
+            display: inline-block;
+            position: relative;
+        }
+        .plaseringsboksMaps{
+            opacity: 0.0;
+            overflow: hidden;
+            border-radius: 450px;
+
+        }
+        .plaseringsboksMaps:hover{
+            opacity: 1.0;
+        }
+        .bildeText p{
+            margin-left: 5px;
+            color: white;
+        }
+        .bildeText h3{
+            margin-left: 5px;
+            color: white;
+        }
+        .tekstBoks{
+            position: absolute;
+            bottom: 0;
+            background: linear-gradient(0deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%);
+            width: 100%;
+        }
+        .tekstBoks a{
+            color:white;
+        }
+        #bakgrunn{
+            background-color: rgba(0, 0, 0, 0.80);
+            height: 100%;
+            padding-top: 30px;
+        } 
+        .sluttTekst{
+            margin: 30px;
+            position: relative;
+            color: white;
+            padding: 5px;
+            border-radius: 10px;
+            line-height: 1.5em;
+        }
+       
+    </style>
+</head>
+<body>
+    <div id="scroll">
+    <div class="bakgrunnsbildeStørrelse" id="universalDesign">
+    <div class="hovedTekst">
+    <h1>Modul 3 Universal Design</h1>
+    <p>Under diskusjonen av personene vi har kommet frem til la vi mest vekt på å få et bredest mulig utvalg. 
+        Så vi gikk ganske systematisk frem i valgene av de karakteristiske trekkene. 
+        I kategorien alder for eksempel valgte vi det mest spredte for å få best mulig dekning av alle. Ungdom, voksen og gammel. 
+        Samme gjaldt i de andre kategoriene. 
+        Geografisk sett og med tanke på etnisitet så tenkte vi heller i forbindelse med det med å være immigrant i et land og være født og oppvokst der. 
+        Også litt hva slags land personen kommer fra hvis man er immigrant. 
+        På kjønn så valgte vi tre forskjellige kjønn og i forbindelse med utdanning så var det også tre ulike nivå; ingen utdanning, grunnskole og videregående nivå. 
+        Så som en kan se har valgene vært preget av å få mest mulig mangfoldighet og at det fleste kategorier er representert.
+    </p>
+    </div>
+    </div>
+    <div>
+        <section class="bakgrunnsbildeStørrelse" id="rawanda">
+        <div class="plasseringsBoks">
+            <div class="bildeText" id="Kalisa">
+                <div class="tekstBoks">
+                    <h3><b>Kalisa Uwimana</b></h3>
+                    <p><b>Bor i:</b> Rwanda <br>
+                    <b>Opprinnelse fra:</b> <a href="https://www.google.com/search?q=rwanda&rlz=1C5CHFA_enNO1020NO1020&oq=rwanda&aqs=chrome.0.0i131i355i433i512j46i131i433i512j0i512l6j46i199i465i512j0i512.1316j0j7&sourceid=chrome&ie=UTF-8" target="_blank"> Rwanda</a>  <br>
+                    <b>Alder:</b> 20 <br>
+                    <b>Funksjonshemning:</b> Analfabet<br>
+                    <b>Kjønn:</b> Kvinne <br>
+                    <b>Utdanning:</b> Ingen</p>
+                </div>  
+            </div> 
+            <div class="ytrePlaseringsboksMaps">
+            <div class="plaseringsboksMaps" id="RawandaMap">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1020805.9008238954!2d29.31994250151462!3d-1.9435638215454152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19c29654e73840e3%3A0x7490b026cbcca103!2sRwanda!5e0!3m2!1sno!2sno!4v1668420143599!5m2!1sno!2sno" height="450px" width="450px"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            </div>
+        </div>
+        </section>
+        <section class="bakgrunnsbildeStørrelse" id="norway">
+        <div class="plasseringsBoks">
+            <div class="bildeText" id="Ola">
+                <div class="tekstBoks">
+                    <h3><b>Ola Hansen</b></h3>
+                    <p><b>Bor i:</b> Norge <br>
+                    <b>Opprinnelse fra:</b> <a href="https://www.google.com/search?q=norge&rlz=1C5CHFA_enNO1020NO1020&oq=norge&aqs=chrome..69i57j46i433i512j46i131i199i433i465i512j0i433i512j46i199i433i465i512j69i60l2j69i61.1435j0j7&sourceid=chrome&ie=UTF-8" target="_blank">Norge</a><br>
+                    <b>Alder:</b> 35 <br>
+                    <b>Funksjonshemning:</b> Født blind <br>
+                    <b>Kjønn:</b> Ikke-binær <br>
+                    <b>Utdanning:</b> Videregåendeskole</p>
+                </div>
+            </div>
+            <div class="ytrePlaseringsboksMaps">
+            <div class="plaseringsboksMaps" id="NorwayMap">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14595558.325519156!2d0.10817164601927767!3d63.47695250596366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x461268458f4de5bf%3A0xa1b03b9db864d02b!2sNorge!5e0!3m2!1sno!2sno!4v1668425211336!5m2!1sno!2sno" height="450px" width="450px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            </div>
+        </div>
+        <div>
+        </section>
+        <section class="bakgrunnsbildeStørrelse" id="syria">
+        <div class="plasseringsBoks">
+            <div class="bildeText" id="Mohamed">
+                <div class="tekstBoks">
+                    <h3><b>Mohamed Khan</b></h3>
+                    <p><b>Bor i:</b> Norge <br>
+                    <b>Opprinnelse fra:</b> <a href="https://www.google.com/search?q=syria&rlz=1C5CHFA_enNO1020NO1020&oq=syria&aqs=chrome.0.0i355i433i512j46i433i512j69i59l3j69i60l3.1119j0j7&sourceid=chrome&ie=UTF-8" target="_blank">Syria</a> <br>
+                    <b>Alder:</b> 70 <br>
+                    <b>Funksjonshemning:</b> Rullestol grunnet alder <br>
+                    <b>Kjønn:</b> Mann <br>
+                    <b>Utdanning:</b> Grunnskole</p>
+                </div>
+            </div>
+            <div class="ytrePlaseringsboksMaps">
+            <div class="plaseringsboksMaps" id="SyriaMap">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3355096.9054655554!2d36.75888701147483!3d34.79432137195924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1518e6dc413cc6a7%3A0x877546f4882af620!2sSyria!5e0!3m2!1sno!2sno!4v1668425233835!5m2!1sno!2sno" height="450px" width="450px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            </div>
+        </div>
+        </section>
+    <div class="bakgrunnsbildeStørrelse" id="maps">
+    <div id="bakgrunn">
+    <div class="sluttTekst">
+    <h3>Litt om Mohamed</h3>
+    <p> Mohamed er en 70 år gammel mann som bor i Oslo. Han flyttet til Norge for kun 10 år siden, han er både født og oppvokst i Syria. 
+        Det er i Syria her han har brukt mesteparten av livet sitt, derfor har det vært vanskelig for Mohamed å omvende seg til den norske kulturen og beherske det norske språket. 
+        I Oslo bor han i et generasjonshjem med familien (barn og barnebarn), Mohamed ble nylig enkemann da konen døde for kun et par år siden. 
+        Heldigvis har Mohamed et godt forhold til familien, og han trives med å kunne bo i lag med dem. 
+        Mohamed har en ganske stor funksjonshemning som påvirker hverdagen hans, han sitter i rullestol, dette har han kun gjort i de siste årene og det er på grunn av nedsatt mobilitet i forhold til alderen hans. 
+        Mohamed liker å svømme/bade, bingo, drikke kaffe og sitte i badstue. Han er ikke så glad i kulde, vinter og norsk mat. Han har vitnemål fra grunnskolen, men ingen høyere utdanning. 
+        En vanlig dag for Mohamed består gjerne av en tur innom dagsenter, ellers er ting ganske rolig og han har sjeldent mer enn en ting på agendaen.</p>
+    </div>
+    <div class="sluttTekst">
+        <h3>I møte med mobiltelefonen</h3>
+    <p> Mohammed er ensom og savner vennene sine i Syria. Han får en mobiltelefon av barna sine for å kunne snakke med vennene sine når barna er på jobb. 
+        I møte med mobiltelefonen støter Mohammed på flere problemer. 
+        De første problemer han møter er at han ikke forstår språket på mobilen, han sliter med å lese den lille teksten på skjermen og han får ikke til å trykke på det han skulle ønske på skjermen, spesielt når han skal markere tekst. 
+        Videre sliter han med å koble til internett på mobilen, han får ikke til å finne riktig app og heller ikke multitasking på telefonen, som man gjør for å verifisere en bruker ved å hente en kode fra mail. 
+        Selv etter en stund med bruk av telefonen sliter han med å ta skjermbilde, forså alle snarveiene og funksjonen «lukking av apper». 
+        Han syns også at telefonen er smal og glatt, og har mistet den flere ganger. 
+        Det han irriterer seg over mest er tvungen oppdatering som forandrer alt han har lært seg og som fører til at han må starte å lære seg alt på nytt.</p>
+    </div>
+    <div class="sluttTekst">
+        <h3>Løsninger</h3>
+    <p> Det er flere løsninger vi foreslår for å kunne gjøre det enklere for personen vår å bruke smarttelefonen. 
+        Et tiltak kan være å lage et enklere og mindre teknisk språk, tilsvarende det Wikipedia har. 
+        Dette kan være «Simple English», «Simple Norwegian», osv. 
+        Noe som også kan gjøre språkutfordringer enklere er å etablere språkgjenkjenning for «Siri». 
+        En løsning på liten, utydelig skrift er å gjøre det enklere å kunne zoome og gjøre tekst større. 
+        For å løse problemet av markering av tekst og trykking på tastatur/ikoner, kan være at når man holder inn på skjermen får man en forbedret valgmeny med 
+        bl.a. et alternativ som gjør det enklere å markere tekst, eksempelvis piler som kan markere hele ord, velge flere ord, o.l.
+        Det finnes også ugjenkjennelige ikoner som ikke har en forklaring på hva dem gjør. 
+        Dette kan løses ved å legge inn en forklaring over ikonet eller at en forklaring kommer opp hvis man holder inne ikonet.</p>
+    </div>
+    </div>
+    </div>
+    </div>
+</body>
+</html>
+
