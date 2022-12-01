@@ -23,6 +23,7 @@ body{
   align-items: center;
   justify-content: space-between;
 }
+
 #header > img{ /* Plasserer menyen på lik høyde med logoen, og bestemmer avstanden mellom menyen og bildet */
   vertical-align: middle;
 }
@@ -41,8 +42,6 @@ body{
 }
 
 #logo{ /* Plassering av logo */
-  margin: 20px;
-  padding: 0px;
   height: 90px;
 }
 
