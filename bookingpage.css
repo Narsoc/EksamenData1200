@@ -82,7 +82,7 @@ body{
 form{
   width: 600px; /* Skaper en fast bredde på formen */
   margin: 0 auto; /* Sentrerer skjemaet */
-  padding-bottom: 25px; /* Skaper et mellomrom mellom reservasjonen og footeren */
+  padding-bottom: 30px; /* Skaper et mellomrom mellom reservasjonen og footeren */
 }
 
 div.boxes{ /* Definerer de større input-boksene i reservasjonen */
