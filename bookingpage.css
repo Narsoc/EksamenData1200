@@ -42,6 +42,7 @@ body{
 
 .logo{ /* Plassering av logo */
   margin: 0px;
+  padding: 0px;
   height: 90px;
 }
 
