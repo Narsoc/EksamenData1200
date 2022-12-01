@@ -82,11 +82,11 @@ html{
     line-height: 170%;
   }
 
-  .h1{
+  h1{
     font-size: 30px;
   }
 
-  .h2{
+  h2{
     text-align: center;
     margin-top: 100px;
     margin-left: 100px;
