@@ -57,13 +57,10 @@ justify-content: space-around;
 color: black;
 }
 
-#coffeeMenu{
-display: inline-block;
-}
-
 .coffee{
 display: flex;
 gap: 200px;
+display: inline-block;
 }
 
 .allergy{
