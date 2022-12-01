@@ -40,7 +40,7 @@ body{
   padding: 10px 25px;
 }
 
-.logo{ /* Plassering av logo */
+#logo{ /* Plassering av logo */
   margin: 0px;
   padding: 0px;
   height: 90px;
