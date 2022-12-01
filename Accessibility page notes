@@ -1,0 +1,14 @@
+Vi testet en og en side i wave.webaim.org.
+
+På Velkommen-siden fikk vi kun «error» på at alternativ tekst ikke var lagt inn på de fire nederste bildene. Dette er nå lagt inn, samt at fotograf har 
+blitt kreditert. 
+
+På Meny-siden fikk vi ingen «errors», kun «alerts» om at h4 var brukt istedenfor h3. Vi ønsket å ikke bruke en så stor fontstørrelse, men har nå endret 
+til h3 og definert størrelsen via CSS. 
+
+For Booking-siden fikk vi heller ingen «errors», kun en «alert». Advarselen var at vi har hoppet over en heading-størrelse. Vi har nå endret slik at den
+går rett fra h1 til h3. M.t.p. UD er det placeholder i skjemaet for å gjøre det mer intuitivt om hvilken informasjon som etterspørres. I «Kommentar» er 
+det mulig å fortelle kafeen om allergener, funksjonshemninger som det må tilrettelegges for, o.l. Dette gjør Fargevalget på alle sidene er også konsekvent,
+f.eks i headeren er det svart bakgrunn med hvit tekst. Dette er for å skape kontraster som gjør det lettere for svaksynte og fargeblinde. 
+
+
