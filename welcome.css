@@ -41,10 +41,6 @@ html{
     padding: 10px 25px;
   }
 
-  #heading{
-    font-size: 30px;
-  }
-
   .logo{ /* Plassering av logo */
     margin: 20px;
     height: 90px;
@@ -84,6 +80,10 @@ html{
     margin-left: 100px;
     margin-right: 100px;
     line-height: 170%;
+  }
+
+  .h1{
+    font-size: 30px;
   }
 
   .h2{
