@@ -60,7 +60,6 @@
     .logo{ /* Plassering av logo */
       margin: 20px;
       height: 90px;
-      padding: 0;
     }
 
     .footer{
@@ -223,28 +222,28 @@
   <div class="boxes">
     <hr>
     <label for="name">Fullt navn</label>
-    <input type="text" id="name" name="visitor_name" placeholder="Ola Nordmann" pattern=[A-Å\sa-å]{3,20} required>
+    <input type="text" id="name" name="guestname" placeholder="Ola Nordmann" pattern=[A-Å\sa-å]{3,20} required>
   </div>
   <div class="boxes">
     <label for="email">E-postadresse</label>
-    <input type="email" id="email" name="visitor_email" placeholder="ola.nordmann@email.no" required>
+    <input type="email" id="email" name="guestemail" placeholder="ola.nordmann@email.no" required>
   </div>
   <div class="boxes">
     <label for="phone">Telefonnummer</label>
-    <input type="tel" id="phone" name="visitor_phone" placeholder="+47 48148657" required>
+    <input type="tel" id="phone" name="guestphone" placeholder="+47 48148657" required>
   </div>
   <hr>
   <div class="smallboxes">
     <label for="guests">Antall gjester</label>
-    <input type="number" id="guests" name="total_guests" placeholder="2" min="1" max="7" required>
+    <input type="number" id="guests" name="totalguests" placeholder="2" min="1" max="7" required>
   </div>
   <div class="smallboxes">
-    <label for="reservation-date">Ønsket dato</label>
-    <input type="date" id="reservation-date" name="reservation_date" required>
+    <label for="reservationdate">Ønsket dato</label>
+    <input type="date" id="reservationdate" name="reservationdate" required>
   </div>
     <div class="smallboxes">
-      <label for="reservation-time">Ønsket tidspunkt</label>
-      <select id="reservation-time" name="reservation_time" required>
+      <label for="reservationtime">Ønsket tidspunkt</label>
+      <select id="reservationtime" name="reservationtime" required>
         <option value="09:00">09:00</option>
         <option value="09:30">09:30</option>
         <option value="10:00">10:00</option>
@@ -258,8 +257,8 @@
       </select>
   </div>
   <div class="boxes">
-    <label for="table-selection">Bordplassering</label>
-    <select id="table-selection" name="table_preference" required>
+    <label for="tablepreference">Bordplassering</label>
+    <select id="tablepreference" name="tablepreference" required>
       <option value="">Vennligst velg ett av alternativene</option>
       <option value="inside">Jeg ønsker bord innendørs</option>
       <option value="outside">Jeg ønsker bord utendørs</option>
@@ -269,7 +268,7 @@
   <hr>
   <div class="boxes">
     <label for="message">Kommentar</label>
-    <textarea id="message" name="visitor_message" placeholder="Fortell oss gjerne om det er noe vi burde vite!"></textarea>
+    <textarea id="message" name="guestmessage" placeholder="Fortell oss gjerne om det er noe vi burde vite!"></textarea>
   </div>
   <button type="submit">Bekreft reservasjon</button> <!--Sender inn reservasjonen-->
 </form>
