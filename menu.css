@@ -1,43 +1,44 @@
 #menuSnap{
-max-width: 500px;
-margin: auto;
-display: flex;
-align-items: center;
-justify-content: space-around;
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 #menuSnap a{
-color: black;
+  color: black;
 }
 
 #coffeeMenu{
-display: inline-block;
+  display: inline-block;
 }
+
 @media (max-width: 800px){
   #coffeeMenu{
     flex-direction: column;
   }
 
 #coffee{
-display: flex;
-gap: 200px;
+  display: flex;
+  gap: 200px;
 }
 
 .allergy{
-margin-top: 50px;
-margin-bottom: 30px;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 .allergens{
-font-style: italic;
+  font-style: italic;
 }
 
 .vegan{
-color: green;
-font-weight: bold;
-font-size: larger;
+  color: green;
+  font-weight: bold;
+  font-size: larger;
 }
 
 h3{
-margin-top: 30px;
+  margin-top: 30px;
 }
