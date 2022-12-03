@@ -24,6 +24,12 @@ body{
   justify-content: space-between;
 }
 
+@media (max-width: 400px){
+  #header {
+    flex-direction: column;
+  }
+}
+
 #header > img{ /* Plasserer menyen på lik høyde med logoen, og bestemmer avstanden mellom menyen og bildet */
   vertical-align: middle;
 }
