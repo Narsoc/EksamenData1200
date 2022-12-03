@@ -20,7 +20,7 @@ body{
 }
 @media (max-width: 400px){
    .mainText{
-    margin 50px;
+    margin: 50px;
   }
 .mainText p{
     height: 100vw;
