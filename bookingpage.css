@@ -35,10 +35,10 @@ input, select, textarea{
   padding: 10px; /* Definerer høyden på boksene */
   font-family: Barlow Semi Condensed; /* Fonttype i boksene */
 }
-select{
-  -webkit-appearance:none;
-  background-color: white;
-  border-radius: 0px;
+select, input{
+  -webkit-appearance:none; /* Fjerner default styling på Safari*/
+  background-color: white; /* Fjerner default styling på Safari*/
+  border-radius: 0px; /* Fjerner default styling på Safari*/
 }
 .smallboxWrapper{
   display: grid;
