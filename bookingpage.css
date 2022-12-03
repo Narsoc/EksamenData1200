@@ -10,13 +10,13 @@ form{
   padding-bottom: 30px; /* Skaper et mellomrom mellom reservasjonen og footeren */
 }
 
-div.boxes{ /* Definerer de større input-boksene i reservasjonen */
+.boxes{ /* Definerer de større input-boksene i reservasjonen */
   margin: 20px 0;
   text-align: center;
   max-width: 600px;
 }
 
-div.smallboxes{ /* Definerer de mindre input-boksene i reservasjonen */
+.smallboxes{ /* Definerer de mindre input-boksene i reservasjonen */
   max-width: 600px;
   display: inline-block;
 }
@@ -35,9 +35,14 @@ input, select, textarea{
   padding: 10px; /* Definerer høyden på boksene */
   font-family: Barlow Semi Condensed; /* Fonttype i boksene */
 }
-
-div.smallboxes input{
+.smallboxWrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+}
+.smallboxes input{
   width: 100%; /* Hvor store 'Antall gjester', 'Ønsket tidspunkt' og 'Ønsket dato'-boksene er */
+  height: 50px;
   display: inline-block; /* Gjør at elementene kan sitte ved siden av hverandre */
 }
 
