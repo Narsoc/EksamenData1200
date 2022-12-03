@@ -14,7 +14,7 @@ color: black;
 display: inline-block;
 }
 
-.coffee{
+#coffee{
 display: flex;
 gap: 200px;
 }
