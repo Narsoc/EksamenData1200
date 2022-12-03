@@ -10,7 +10,7 @@ body{
     position: relative;
 }
 .mainText{
-    margin: 20vw;
+    margin: 100px;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.631);
     color: white;
@@ -20,6 +20,7 @@ body{
 }
 @media (max-width: 670px){
   .mainText p{
+    height: 50vw:
     overflow-y: scroll;
   }
 }
