@@ -15,7 +15,7 @@
 }
 
 @media (max-width: 800px){
-  #coffeeMenu{
+  #coffee{
     flex-direction: column;
   }
 
