@@ -44,7 +44,7 @@ select{
   gap: 5px;
 }
 @media (max-width: 800px){
-  #smallboxWrapper{
+  #smallbox{
     flex-direction: column;
   }
 }
