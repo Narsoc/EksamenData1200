@@ -21,3 +21,8 @@ h2{
     line-height: 100%;
   }
 }
+@media (max-width: 480px){
+  #omOss{
+    line-height: 100%;
+  }
+}
