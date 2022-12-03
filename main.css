@@ -75,6 +75,12 @@ font-size: 32px;
   margin-top: 20px;
 }
 
+@media (max-width:300px){
+  #footer {
+    flex-direction: column;
+  }
+}
+
 #contactdetails{
   flex-grow: 2;
 }
