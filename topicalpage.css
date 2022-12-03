@@ -18,6 +18,10 @@ body{
     border-radius: 10px;
     line-height: 1.5em;
 }
+.mainText p{
+    overflow-y: scroll;
+}
+
 #universalDesign{
   background-image: url(./damerullestol.jpg); 
   background-size: cover; 
