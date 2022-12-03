@@ -84,3 +84,9 @@ button:hover{ /* Definerer rammen rundt Reservasjon-knappen */
 #link{ /* Setter fargen til svart (altså default fargen) */
   color: inherit;
 }
+
+@media (max-width: 330px){
+  #Booking{
+    line-height: 200%;
+  }
+}
