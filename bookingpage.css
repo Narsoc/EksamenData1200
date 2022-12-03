@@ -87,6 +87,6 @@ button:hover{ /* Definerer rammen rundt Reservasjon-knappen */
 
 @media (max-width: 330px){
   #Booking{
-    line-height: 200%;
+    line-height: 250%;
   }
 }
