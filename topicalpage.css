@@ -10,7 +10,7 @@ body{
     position: relative;
 }
 .mainText{
-    margin: 100px;
+    margin: 20vw;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.631);
     color: white;
