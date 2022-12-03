@@ -18,6 +18,6 @@ h2{
 
 @media (max-width: 480px){
   #Welcome{
-    line-height: 250%;
+    line-height: 100%;
   }
 }
