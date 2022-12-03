@@ -43,6 +43,11 @@ select{
   grid-template-columns: 1fr 1fr 1fr;
   gap: 5px;
 }
+@media (max-width: 800px){
+  #smallboxWrapper{
+    flex-direction: column;
+  }
+}
 .smallboxes input{
   width: 100%; /* Hvor store 'Antall gjester', 'Ønsket tidspunkt' og 'Ønsket dato'-boksene er */
   height: 50px;
