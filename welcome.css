@@ -1,7 +1,9 @@
   .paragraph{
-    max-width: 900px;
+    max-width: 1000px;
     text-align: center;
     margin: auto;
+    margin-left: 5px;
+    margin-right: 5px;
   }
 
   h2{
