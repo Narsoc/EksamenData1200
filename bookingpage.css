@@ -37,6 +37,8 @@ input, select, textarea{
 }
 select{
   -webkit-appearance:none;
+  background-color: white;
+  border-radius: 0px;
 }
 .smallboxWrapper{
   display: grid;
