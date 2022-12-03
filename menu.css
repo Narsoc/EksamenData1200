@@ -18,6 +18,7 @@
   #coffee{
     flex-direction: column;
   }
+}
 
 #coffee{
   display: flex;
