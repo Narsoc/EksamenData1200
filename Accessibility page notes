@@ -1,26 +1,28 @@
-Vi testet en og en side i wave.webaim.org.
-
-På Velkommen-siden fikk vi kun «error» på at alternativ tekst ikke var lagt inn på de fire nederste bildene. Dette er nå lagt inn, samt at fotograf har 
-blitt kreditert. 
-
-På Meny-siden fikk vi ingen «errors», kun «alerts» om at h4 var brukt istedenfor h3. Vi ønsket å ikke bruke en så stor fontstørrelse, men har nå endret 
-til h3 og definert størrelsen via CSS. 
-
-For Booking-siden fikk vi heller ingen «errors», kun en «alert». Advarselen var at vi har hoppet over en heading-størrelse. Vi har nå endret slik at den
-går rett fra h1 til h3. M.t.p. UD er det placeholder i skjemaet for å gjøre det mer intuitivt om hvilken informasjon som etterspørres. I «Kommentar» er 
-det mulig å fortelle kafeen om allergener, funksjonshemninger som det må tilrettelegges for, o.l.  
-
-Fargevalget på alle sidene er også konsekvent, f.eks i headeren er det svart bakgrunn med hvit tekst. Dette er for å skape kontraster som gjør det lettere for svaksynte og fargeblinde. 
-
-
-tilpasset for mobil.
-
-tilpasser for chrome og safari
-
-lagt til ALT tekst.
-
-kontrast
-
-link
-
-overskift, paragraf, bold, italic, button
+Vi testet en og en side i wave.webaim.org. 
+ 
+På Velkommen-siden fikk vi kun «error» på at alternativ tekst ikke var lagt inn på de fire nederste bildene. 
+Dette er nå lagt inn, samt at fotograf har blitt kreditert.  
+ 
+På Meny-siden fikk vi ingen «errors», kun «alerts» om at h4 var brukt istedenfor h3. Vi ønsket å ikke bruke en så stor fontstørrelse, 
+men har nå endret til h3 og definert størrelsen via CSS.  
+ 
+For Booking og Om oss-siden fikk vi heller ingen «errors», kun en «alert». Advarselen var at vi har hoppet over en heading-størrelse.
+Vi har nå endret slik at den går rett fra h1 til h3.
+ 
+Booking siden: Med tanke på Universal Design er det placeholder i skjemaet for å gjøre det mer intuitivt om hvilken informasjon som etterspørres. 
+I «Kommentar» er det mulig å fortelle kafeen om allergener, funksjonshemninger som det må tilrettelegges for, o.l.  
+ 
+For Topicalpage-siden fikk vi ingen advarsler og har dermed beholdt sliden slik den er. 
+ 
+Fargevalget på alle sidene er også konsekvent, f.eks i headeren er det svart bakgrunn med hvit tekst. 
+Dette er for å skape kontraster som gjør det lettere for svaksynte og fargeblinde.  
+ 
+Vi har også tilpasset nettsiden slik at den skal passe til desktop og til mobiltelefoner. 
+Vi har brukt @media query for å tilpasse siden for de ulike skjermene. 
+ 
+Det er i tillegg lagt til rette for at nettsiden skal fungere på flere nettlesere, 
+det har hovedsakelig blitt lagt vekt på Chrome og Safari da dette er de mest brukte nettleserne.  
+ 
+Vi har valgt å legge til “Alt” tekst, slik at de som får opplesning av nettsiden skal forstå hva som er på bildene. 
+I tillegg har vi lagt til informasjon om fotograf og hvor bilde er hentet fra slik at alle kan lett finne fram til orginalbilde.  
+ 
