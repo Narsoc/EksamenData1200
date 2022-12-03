@@ -13,18 +13,20 @@
 #coffeeMenu{
   display: inline-block;
 }
+#coffee{
+   max-width: 600px;
+   margin: auto;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+} 
 
 @media (max-width: 800px){
   #coffee{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    
   }
 }
 
-#coffee{
-  display: flex;
-}
 
 .allergy{
   margin-top: 50px;
