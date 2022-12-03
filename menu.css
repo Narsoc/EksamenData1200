@@ -17,6 +17,7 @@
 @media (max-width: 800px){
   #coffee{
     flex-direction: column;
+    gap: 0px;
   }
 }
 
