@@ -13,6 +13,10 @@ color: black;
 #coffeeMenu{
 display: inline-block;
 }
+@media (max-width: 800px){
+  #coffeeMenu{
+    flex-direction: column;
+  }
 
 #coffee{
 display: flex;
