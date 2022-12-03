@@ -45,6 +45,10 @@ body{
   height: 90px;
 }
 
+h1{
+  font-size: 60px;
+}
+
 .footer{
   left: 0px;
   bottom: 0px;
