@@ -18,6 +18,11 @@ body{
     border-radius: 10px;
     line-height: 1.5em;
 }
+@media (max-width: 400px){
+   .mainText{
+    margin 50px;
+  }
+}
 .mainText p{
     height: 100vw;
     overflow-y: scroll;
