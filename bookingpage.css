@@ -43,8 +43,8 @@ select{
   grid-template-columns: 1fr 1fr 1fr;
   gap: 5px;
 }
-@media (max-width: 800px){
-  #smallbox{
+@media (max-width: 500px){
+  .smallboxWrapper{
     flex-direction: column;
   }
 }
