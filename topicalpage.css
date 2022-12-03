@@ -20,7 +20,7 @@ body{
 }
 @media (max-width: 630px){
   .mainText p{
-    height: 70vw;
+    height: 55vw;
     overflow-y: scroll;
   }
 }
