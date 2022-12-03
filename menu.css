@@ -23,10 +23,9 @@
 
 @media (max-width: 800px){
   #coffee{
-    
+    flex-direction: column;
   }
 }
-
 
 .allergy{
   margin-top: 50px;
