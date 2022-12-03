@@ -14,6 +14,7 @@ h1{
   line-height: 100%;
 }
 .bold{
+  font-weight: bold;
   -webkit-font-smoothing: antialiased;
 }
 
