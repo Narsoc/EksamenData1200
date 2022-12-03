@@ -22,12 +22,11 @@ body{
    .mainText{
     margin 50px;
   }
-}
 .mainText p{
     height: 100vw;
     overflow-y: scroll;
+  }
 }
-
 #universalDesign{
   background-image: url(./damerullestol.jpg); 
   background-size: cover; 
