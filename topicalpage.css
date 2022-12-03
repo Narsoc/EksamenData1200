@@ -118,3 +118,7 @@ body{
     border-radius: 10px;
     line-height: 1.5em;
 }
+.endTextAll{
+    height: 100vw;
+    overflow-y: scroll;
+}
