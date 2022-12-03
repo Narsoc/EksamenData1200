@@ -63,10 +63,6 @@ button:hover{ /* Definerer rammen rundt Reservasjon-knappen */
   border: 3px solid rgb(251,235,212);
 }
 
-h1{
-  font-size: 60px;
-}
-
 #italic{
   font-style: italic;
 }
