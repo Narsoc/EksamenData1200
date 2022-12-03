@@ -23,6 +23,9 @@ body{
     height: 50vw;
     overflow-y: scroll;
   }
+  .mainText{
+    margin: 50px;
+  }
 }
 #universalDesign{
   background-image: url(./damerullestol.jpg); 
