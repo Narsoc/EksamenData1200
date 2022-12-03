@@ -2,6 +2,30 @@ body{
     margin: 0px;
     font-family: sans-serif;
 }
+#header{
+  background-color: black;
+  color: white;
+  text-align: right;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#header ul{ /* Gjør at topp-og bunn-margen følges*/
+  display: inline-block;
+  padding: 0px;
+}
+
+#header ul > li{ /* Fjerner bullet points og listen legges vannrett */
+  display: inline-block;
+}
+
+#header a{ /* Skaper mellomrom mellom punktene og fargen blir den samme som hvit (fargen satt i #header) */
+  color: inherit;
+  padding: 10px 25px;
+}
+
 #scroll{
     scroll-snap-type: y mandatory; /* Snaper bilder i Y retning. Altså når man scroller nedover. */
     height: 100vh;
