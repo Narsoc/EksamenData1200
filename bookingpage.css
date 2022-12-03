@@ -13,11 +13,11 @@ form{
 div.boxes{ /* Definerer de større input-boksene i reservasjonen */
   margin: 20px 0;
   text-align: center;
-  width: 600px;
+  max-width: 600px;
 }
 
 div.smallboxes{ /* Definerer de mindre input-boksene i reservasjonen */
-  max-width: 200px;
+  max-width: 600px;
   display: inline-block;
 }
 
