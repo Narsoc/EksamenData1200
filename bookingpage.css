@@ -45,7 +45,7 @@ select{
 }
 @media (max-width: 500px){
   .smallboxWrapper{
-    grid-auto-flow: column;
+    grid-template-rows: 1fr 1fr 1fr;
   }
 }
 .smallboxes input{
