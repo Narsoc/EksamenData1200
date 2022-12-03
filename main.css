@@ -30,6 +30,7 @@ body{
 
 #header ul{ /* Gjør at topp-og bunn-margen følges*/
   display: inline-block;
+  padding: 0px;
 }
 
 #header ul > li{ /* Fjerner bullet points og listen legges vannrett */
