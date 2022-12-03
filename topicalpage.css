@@ -5,7 +5,7 @@ body{
 #header{
   background-color: black;
   color: white;
-  text-align: right;
+  text-align: left;
   font-size: 24px;
   display: flex;
   align-items: center;
