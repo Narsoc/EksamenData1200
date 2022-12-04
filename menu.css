@@ -1,39 +1,39 @@
-#menuSnap{
-  max-width: 500px;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+#menuSnap{ /* Gjør det mulig å hoppe rett til "Lunsjretter", "Varm mat" og "Kaffe Meny" øverst på siden. */
+  max-width: 500px; /* Definerer maks-størrelse for boksen. */
+  margin: auto; /* Sentrerer boksen. */
+  display: flex; 
+  align-items: center; /* Sentrerer boksene. */
+  justify-content: space-around; /* Sentrerer boksene til å ha likt mellomrom mellom seg. */
 }
 
 #menuSnap a{
-  color: black;
+  color: black; /* Endrer fargen tilbake til svart. */
 }
 
 #coffee{
-   max-width: 600px;
-   margin: auto;
+   max-width: 600px; /* Definerer maks-størrelse for boksen. */
+   margin: auto; /* Sentrerer boksen. */
    display: flex;
-   align-items: center;
-   justify-content: space-around;
+   align-items: center; /* Sentrerer boksene. */
+   justify-content: space-around; /* Sentrerer boksene til å ha likt mellomrom mellom seg. */
 } 
 
 @media (max-width: 450px){
   #coffee{
-    flex-direction: column;
+    flex-direction: column; /* Setter retning til kolonner. (altså bortover) */
   }
 }
 
-.allergy{
+.allergy{ 
   margin-top: 50px;
   margin-bottom: 30px;
 }
 
-.allergens{
+.allergens{ /* Alle allergener blir satt til å være kursiv. */
   font-style: italic;
 }
 
-.vegan{
+.vegan{ /* Setter en stor "V" for å symbolisere at det er vegetar.*/
   color: green;
   font-weight: bold;
   font-size: larger;
