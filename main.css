@@ -89,7 +89,7 @@ font-size: 32px;
   #footer {
     grid-template-colomns: none;
     grid-template-rows: auto auto auto;
-    gap: 25px;
+    gap: 5px;
   }
   
   #footer div {
