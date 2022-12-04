@@ -123,7 +123,7 @@ header a{ /* Skaper mellomrom mellom punktene og fargen blir den samme som hvit 
 }
 #background{
     background-color: rgba(0, 0, 0, 0.80);
-    height: calc(100vh - 48px);
+    height: 100vh;
 } 
 .endText{
     margin: 5px;
@@ -134,6 +134,6 @@ header a{ /* Skaper mellomrom mellom punktene og fargen blir den samme som hvit 
     line-height: 1.5em;
 }
 .endTextAll{
-    height: calc(100vh - 48px);
+    height: 100vh;
     overflow-y: scroll;
 }
