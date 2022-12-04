@@ -5,7 +5,7 @@
 }
 
 form{
-  max-width: 600px; /* Skaper en fast bredde på formen */
+  max-width: 600px; /* Definerer en maks bredde på formen */
   margin: 0 auto; /* Sentrerer skjemaet */
   padding-bottom: 30px; /* Skaper et mellomrom mellom reservasjonen og footeren */
 }
@@ -16,12 +16,7 @@ form{
   max-width: 600px;
 }
 
-.smallboxes{ /* Definerer de mindre input-boksene i reservasjonen */
-  max-width: 600px;
-  display: inline-block;
-}
-
-label{
+label{ 
   display: block;
   padding-bottom: 10px;
   font-size: 20px;
@@ -50,7 +45,7 @@ select, input{
   grid-template-columns: 1fr 1fr 1fr;
   gap: 5px;
 }
-@media (max-width: 500px){ /* Når skjermen er mindre enn 500px vil boksene endre seg fra å ligger bortover til å ligge nedover. */
+@media (max-width: 500px){ /* Når skjermen er mindre enn 500px vil boksene endre seg fra å ligge bortover til å ligge nedover. */
   .smallboxWrapper{
     grid-template-columns: none;
     grid-template-rows: 1fr 1fr 1fr;
