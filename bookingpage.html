@@ -64,7 +64,8 @@
 <p>Vi gleder oss til å høre fra deg!</p>
 </div>
 
-<form name="Reservation" action="http://www.oslometkafe.no/form.php" method=get> <!-- Skjema for reservasjon av bord -->
+<form name="Reservation" action="http://www.oslometkafe.no/form.php" method=get> <!-- Skjema for reservasjon av bord. Det er lagt inn required på de 
+feltene som må fylles inn. Det er også lagt inn pattern og type for å sikre seg at informasjonen som registreres er riktig. -->
   <div class="boxes">
     <hr>
     <label for="name">Fullt navn</label>
@@ -89,7 +90,7 @@
     <input type="date" id="reservationdate" name="reservationdate" required>
   </div>
     <div class="smallboxes">
-      <label for="reservationtime">Ønsket tidspunkt</label>
+      <label for="reservationtime">Ønsket tidspunkt</label> <!-- Lagt inn alternativer for reservasjon hver halvtime kafeen er åpen -->
       <select id="reservationtime" name="reservationtime" required>
         <option value="09:00">09:00</option>
         <option value="09:30">09:30</option>
@@ -132,7 +133,7 @@
     <label for="message">Kommentar</label>
     <textarea id="message" name="guestmessage" placeholder="Fortell oss gjerne om det er noe vi burde vite!"></textarea>
   </div>
-  <button type="submit">Bekreft reservasjon</button> <!--Sender inn reservasjonen-->
+  <button type="submit">Bekreft reservasjon</button> <!-- Knappen sender inn reservasjonen -->
 </form>
 
   <footer>
