@@ -109,3 +109,7 @@ p a {
     /* Setter linken til å være svart */
     color: black;
 }
+
+.map {
+    width: 100%;
+}
