@@ -1,91 +1,121 @@
-body{
+body {
     margin: 0px;
     font-family: sans-serif;
 }
-header{ /* Setter farge og størrelse og posisjon av headeren og teksten i. */
-  background-color: black;
-  color: white;
-  text-align: right;
-  font-size: 24px;
-  padding: 5px;
-  position: fixed; /* Sette posisjonen til å være fast øverst. */
-  z-index: 1; /* Setter headeren over slik at den er synlig. */
-  width: 100%; /* Setter bredden på headeren */
+
+header {
+    /* Setter farge og størrelse og posisjon av headeren og teksten i. */
+    background-color: black;
+    color: white;
+    text-align: right;
+    font-size: 24px;
+    padding: 5px;
+    position: fixed;
+    /* Sette posisjonen til å være fast øverst. */
+    z-index: 1;
+    /* Setter headeren over slik at den er synlig. */
+    width: 100%;
+    /* Setter bredden på headeren */
 }
 
-header a{ /* Setter tilbake fargen og legger til padding */
-  color: inherit;
-  padding: 10px 10px;
+header a {
+    /* Setter tilbake fargen og legger til padding */
+    color: inherit;
+    padding: 10px 10px;
 }
 
-#scroll{
-    scroll-snap-type: y mandatory; /* Snaper (stopper opp) bilder i Y retning. Altså når man scroller nedover. */
+#scroll {
+    scroll-snap-type: y mandatory;
+    /* Snaper (stopper opp) bilder i Y retning. Altså når man scroller nedover. */
     height: 100vh;
     overflow-y: scroll;
-    scroll-behavior: smooth; /* Gjør at det ikke hopper ned når det scrolles. (flytende overgang) */
+    scroll-behavior: smooth;
+    /* Gjør at det ikke hopper ned når det scrolles. (flytende overgang) */
     position: relative;
 }
-.mainText{ /* Definerer marg, skrift farge og bakgrunnsfarge der hovedteksten på siden skal være. */
-    margin: 50px 5% 5% 5%; 
+
+.mainText {
+    /* Definerer marg, skrift farge og bakgrunnsfarge der hovedteksten på siden skal være. */
+    margin: 50px 5% 5% 5%;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.631);
     color: white;
     padding: 15px;
-    border-radius: 10px;  /* Setter runde kanter på boksen */
-    line-height: 1.5em;  /* Setter linjeavstand */
+    border-radius: 10px;
+    /* Setter runde kanter på boksen */
+    line-height: 1.5em;
+    /* Setter linjeavstand */
 }
-@media (max-width: 670px){ /* Endrer størrelsen på boksen når skjermen er mindre enn 670px.  */
-  .mainText p{
-    height: 50vh;
-    overflow-y: scroll;
-  }
+
+@media (max-width: 670px) {
+
+    /* Endrer størrelsen på boksen når skjermen er mindre enn 670px.  */
+    .mainText p {
+        height: 50vh;
+        overflow-y: scroll;
+    }
 }
-#universalDesign{ /* legger til bakgrunnsbilde */
-  background-image: url(./damerullestol.jpg); 
-  background-size: cover; 
+
+#universalDesign {
+    /* legger til bakgrunnsbilde */
+    background-image: url(./damerullestol.jpg);
+    background-size: cover;
 }
-#rawanda{ 
+
+#rawanda {
     background-image: url(./rawanda.jpg);
-    background-size: cover; 
+    background-size: cover;
 }
-#Kalisa{
+
+#Kalisa {
     background-image: url(./Kalisa.jpg);
-    background-size: cover; 
+    background-size: cover;
 }
-#norway{
+
+#norway {
     background-image: url(./Norway.jpg);
-    background-size: cover; 
+    background-size: cover;
 }
-#Ola{
+
+#Ola {
     background-image: url(./Ola.png);
 }
-#syria{
+
+#syria {
     background-image: url(./syria.jpg);
-    background-size: cover; 
+    background-size: cover;
 }
-#Mohamed{
+
+#Mohamed {
     background-image: url(./Mohamed.png);
-    background-size: cover; 
+    background-size: cover;
 }
-#maps{
+
+#maps {
     background-image: url(./Maps.png);
     background-size: cover;
 }
-.backgroundphotoSize{ /*  Definerer størrelsen på bildene. */
+
+.backgroundphotoSize {
+    /*  Definerer størrelsen på bildene. */
     background-size: 100% 100%;
     height: 100vh;
     scroll-snap-align: start;
 }
-.placementBox{ /* Definerer størrelsen på boksen, plasserer den i fohold til siden.  */
+
+.placementBox {
+    /* Definerer størrelsen på boksen, plasserer den i fohold til siden.  */
     height: 100%;
     width: 100%;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
     justify-content: space-around;
     padding-top: 14px;
 }
-.photoText{   /* Setter størrelsen på teksten som er over bilde. */
+
+.photoText {
+    /* Setter størrelsen på teksten som er over bilde. */
     background-size: cover;
     height: 550px;
     width: 310px;
@@ -94,54 +124,76 @@ header a{ /* Setter tilbake fargen og legger til padding */
     box-shadow: 0px 0px 60px black;
     border-radius: 5px;
 }
-.photoText p{ /* Setter paragrafen til å ha margin og hvit skrift. */
+
+.photoText p {
+    /* Setter paragrafen til å ha margin og hvit skrift. */
     margin-left: 5px;
     color: white;
 }
-.photoText h3{ /* Setter paragrafen til å ha margin og hvit skrift. */
+
+.photoText h3 {
+    /* Setter paragrafen til å ha margin og hvit skrift. */
     margin-left: 5px;
     color: white;
 }
-.placementBoxMaps{ /* Setter boksen kartet er i til å være gjemt. */
+
+.placementBoxMaps {
+    /* Setter boksen kartet er i til å være gjemt. */
     opacity: 0.0;
     overflow: hidden;
     border-radius: 450px;
 }
-.placementBoxMaps:hover{ /* Setter boksen kartet er i til å være synlig når musepekeren er over. */
+
+.placementBoxMaps:hover {
+    /* Setter boksen kartet er i til å være synlig når musepekeren er over. */
     opacity: 1.0;
 }
-@media (max-width: 770px){ /* Fjerner kartboksen når skjermen er mindre enn 770px. Dette gjør siden finere på mindre skjermer.*/
-  .placementBoxMaps{
-     display: none;
-  }
+
+@media (max-width: 770px) {
+
+    /* Fjerner kartboksen når skjermen er mindre enn 770px. Dette gjør siden finere på mindre skjermer.*/
+    .placementBoxMaps {
+        display: none;
+    }
 }
-.textBox{ /* Definerer størrelsen på tekstboksen */
+
+.textBox {
+    /* Definerer størrelsen på tekstboksen */
     position: absolute;
     bottom: 0;
-    background: linear-gradient(0deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
     width: 100%;
 }
-.textBox a{ /* Setter fargen på linken til å være hvit. */
-    color:white;
+
+.textBox a {
+    /* Setter fargen på linken til å være hvit. */
+    color: white;
 }
-#background{ /* Setter en delvis transparang bakgrunnsfarge over kartet. */
+
+#background {
+    /* Setter en delvis transparang bakgrunnsfarge over kartet. */
     background-color: rgba(0, 0, 0, 0.80);
     height: 100vh;
-} 
-.endText{ /* Definerer marg, posisjon, farge og padding for teksten på siste side. */
+}
+
+.endText {
+    /* Definerer marg, posisjon, farge og padding for teksten på siste side. */
     margin: 5px;
     position: relative;
     color: white;
     padding: 5px;
-    border-radius: 10px; 
-    line-height: 1.5em; /* Setter linjeavstanden */
+    border-radius: 10px;
+    line-height: 1.5em;
+    /* Setter linjeavstanden */
 }
-.endTextAll{ /* Lager en scroll funksjon for å kunne lese all tekst når skjermen blir mindre. */
+
+.endTextAll {
+    /* Lager en scroll funksjon for å kunne lese all tekst når skjermen blir mindre. */
     height: 100vh;
     overflow-y: scroll;
 }
-.endTextAll > :first-child{ /* Setter en margin-top på det første barnet til endTextAll. */
+
+.endTextAll> :first-child {
+    /* Setter en margin-top på det første barnet til endTextAll. */
     margin-top: 48px;
 }
-
-
