@@ -15,8 +15,9 @@ I «Kommentar» er det mulig å fortelle kafeen om allergener, funksjonshemninge
  
 For Topicalpage-siden fikk vi ingen advarsler og har dermed beholdt sliden slik den er. 
  
-Fargevalget på alle sidene er også konsekvent, f.eks i headeren er det svart bakgrunn med hvit tekst. 
-Dette er for å skape kontraster som gjør det lettere for svaksynte og fargeblinde.  
+Fargevalget på alle sidene er også konsekvent, f.eks i headeren er det svart bakgrunn med hvit tekst. Dette er for å skape kontraster som gjør det lettere
+for svaksynte og fargeblinde. Vi bruker også mye lenker sånn at det er enkelt for brukeren å finne fram til relevant informasjon, ta kontakt med oss og/eller
+finne fram til kafeen.
  
 Vi har også tilpasset nettsiden slik at den skal passe til desktop og til mobiltelefoner. 
 Vi har brukt @media query for å tilpasse siden for de ulike skjermene. 
@@ -27,9 +28,5 @@ det har hovedsakelig blitt lagt vekt på Chrome og Safari da dette er de mest br
 Vi har valgt å legge til “Alt” tekst, slik at de som får opplesning av nettsiden skal forstå hva som er på bildene. 
 I tillegg har vi lagt til informasjon om fotograf og hvor bilde er hentet fra slik at alle kan lett finne fram til orginalbilde. Det er også lagt inn en
 del kommentarer i koden sånn at det skal være enkelt for en annen webutvikler å ta over nettsiden og forstå hva vi har tenkt. 
- 
-kontrast
-
-link
 
 overskift, paragraf, bold, italic, button
