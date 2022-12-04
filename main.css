@@ -1,124 +1,154 @@
-html{ /* Scroller sakte over til ellementet istden for å hoppe direkte. */
-  scroll-behavior: smooth;
+html {
+    /* Scroller sakte over til ellementet istden for å hoppe direkte. */
+    scroll-behavior: smooth;
 }
 
-body{ /* Definerer font størrelsen. */
-  margin: 0 auto;
-  font-size: 20px;
-}
-
-.all{ /* Setter bakgrunnsfarge, linjehøyde og font. */
-  background-color: rgb(251, 235, 212);
-  text-align: center;
-  line-height: 170%;
-  font-family: Barlow Semi Condensed;
-}
-
-#header{ /* Definerer farge, posisjon, skrift størrelse, og mellomrommet mellom divene. */
-  background-color: black;
-  color: white;
-  text-align: left;
-  font-size: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-#header ul{ /* Gjør at topp-og bunn-margen følges*/
-  display: inline-block;
-  padding: 0px;
-}
-
-#header ul > li{ /* Fjerner bullet points og listen legges vannrett */
-  display: inline-block;
-}
-
-#header a{ /* Skaper mellomrom mellom punktene og fargen blir den samme som hvit (fargen satt i #header) */
-  color: inherit;
-  padding: 10px 25px;
-}
-
-header > img { /* Definerer størrelsen på bilde i headeren */
-  width: 100%;
-  height: 300px;
-  object-fit: cover; /* Definerer slik at bilde ikke presses sammen. */
-}
-
-@media (max-width: 800px) { /* Endrer størrelsen på bilde og teksten i menyen når skjermen er mindre enn 800px. */
-  #header a {
-    padding: 10px;
+body {
+    /* Definerer font størrelsen. */
+    margin: 0 auto;
     font-size: 20px;
-  }
-  header > img {
-      height: 150px;
-  }
 }
 
-@media (max-width: 400px) { /* Endrer størrelsen på bilde og teksten i menyen når skjermen er mindre enn 400px. */
-  #logo {
-    height: 60px;
-  }
-  #header a {
-    padding: 5px;
-  }
+.all {
+    /* Setter bakgrunnsfarge, linjehøyde og font. */
+    background-color: rgb(251, 235, 212);
+    text-align: center;
+    line-height: 170%;
+    font-family: Barlow Semi Condensed;
 }
 
-#logo{ /* Plassering av logo */
-  height: 90px;
-}
-
-h1{ /* Definerer font størrelse, tykkelse og høyde. */
-  font-size: 60px;
-  font-weight: normal;
-  line-height: 100%;
-}
-@media (max-width: 420px){ /* Endrer font størrelse når skjermen blir minde. */
-  h1 {
-    font-size: 40px;
-  }
-}
-
-h2{ /* Definerer font størrelse og posisjon */
-text-align: center;
-margin-top: 50px;
-font-size: 32px;
-}
-@media (max-width: 420px){ /* Endrer font størrelse når skjermen blir minde. */
-  h2 {
+#header {
+    /* Definerer farge, posisjon, skrift størrelse, og mellomrommet mellom divene. */
+    background-color: black;
+    color: white;
+    text-align: left;
     font-size: 24px;
-  }
-}
-#footer{ /* Endrer font marg, farger, og setter grid for å plasere boksene. */
-  left: 0px;
-  bottom: 0px;
-  right: 0px;
-  width: 100%;
-  background-color: black;
-  color: white;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding: 20px 50px;
-  text-align: center;
-  box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-#footer a{ /* Endrer farge på linken. */
-  color: white;
+#header ul {
+    /* Gjør at topp-og bunn-margen følges*/
+    display: inline-block;
+    padding: 0px;
 }
 
-#footer h3{ /* Setter linjeavstanden, og setter marg. */
-  font-weight: normal;
-  margin-bottom: 15px;
-  letter-spacing: 1px;
-  margin-top: 30px;
+#header ul>li {
+    /* Fjerner bullet points og listen legges vannrett */
+    display: inline-block;
 }
 
-@media (max-width: 800px){ /* Endrer divene til å liggene under hverandre når skjermen blir mindre */
-  #footer {
-    grid-template-columns: none;
-    grid-template-rows: auto auto auto;
-    gap: 20px;
-    font-size: 20px;
-    margin-bottom: 0px;
-  }
+#header a {
+    /* Skaper mellomrom mellom punktene og fargen blir den samme som hvit (fargen satt i #header) */
+    color: inherit;
+    padding: 10px 25px;
+}
+
+header>img {
+    /* Definerer størrelsen på bilde i headeren */
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    /* Definerer slik at bilde ikke presses sammen. */
+}
+
+@media (max-width: 800px) {
+
+    /* Endrer størrelsen på bilde og teksten i menyen når skjermen er mindre enn 800px. */
+    #header a {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    header>img {
+        height: 150px;
+    }
+}
+
+@media (max-width: 400px) {
+
+    /* Endrer størrelsen på bilde og teksten i menyen når skjermen er mindre enn 400px. */
+    #logo {
+        height: 60px;
+    }
+
+    #header a {
+        padding: 5px;
+    }
+}
+
+#logo {
+    /* Plassering av logo */
+    height: 90px;
+}
+
+h1 {
+    /* Definerer font størrelse, tykkelse og høyde. */
+    font-size: 60px;
+    font-weight: normal;
+    line-height: 100%;
+}
+
+@media (max-width: 420px) {
+
+    /* Endrer font størrelse når skjermen blir minde. */
+    h1 {
+        font-size: 40px;
+    }
+}
+
+h2 {
+    /* Definerer font størrelse og posisjon */
+    text-align: center;
+    margin-top: 50px;
+    font-size: 32px;
+}
+
+@media (max-width: 420px) {
+
+    /* Endrer font størrelse når skjermen blir minde. */
+    h2 {
+        font-size: 24px;
+    }
+}
+
+#footer {
+    /* Endrer font marg, farger, og setter grid for å plasere boksene. */
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px 50px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#footer a {
+    /* Endrer farge på linken. */
+    color: white;
+}
+
+#footer h3 {
+    /* Setter linjeavstanden, og setter marg. */
+    font-weight: normal;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+
+@media (max-width: 800px) {
+
+    /* Endrer divene til å liggene under hverandre når skjermen blir mindre */
+    #footer {
+        grid-template-columns: none;
+        grid-template-rows: auto auto auto;
+        gap: 20px;
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
 }
