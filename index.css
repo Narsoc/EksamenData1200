@@ -15,10 +15,6 @@ h1{ /* setter linjehøyde for overskriften slik at bokstavnene ikke flyter over 
   line-height: 100%;
 }
 
-.bold{
-  -webkit-font-smoothing: antialiased;
-}
-
 .smallimages{  /* Definerer bildestørrelsen */
   width: 350px;
   height: 250px;
