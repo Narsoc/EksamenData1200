@@ -2,31 +2,31 @@ body{
     margin: 0px;
     font-family: sans-serif;
 }
-header{
+header{ /* Setter farge og størrelse og posisjon av headeren og teksten i. */
   background-color: black;
   color: white;
   text-align: right;
   font-size: 24px;
   padding: 5px;
-  position: fixed;
-  z-index: 1;
-  width: 100%;
+  position: fixed; /* Sette posisjonen til å være fast øverst. */
+  z-index: 1; /* Setter headeren over slik at den er synlig. */
+  width: 100%; /* Setter bredden på headeren */
 }
 
-header a{ /* Skaper mellomrom mellom punktene og fargen blir den samme som hvit (fargen satt i #header) */
+header a{ /* Setter tilbake fargen og legger til padding */
   color: inherit;
   padding: 10px 10px;
 }
 
 #scroll{
-    scroll-snap-type: y mandatory; /* Snaper bilder i Y retning. Altså når man scroller nedover. */
+    scroll-snap-type: y mandatory; /* Snaper (stopper opp) bilder i Y retning. Altså når man scroller nedover. */
     height: 100vh;
     overflow-y: scroll;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; /* Gjør at det ikke hopper ned. (flytende overgang) */
     position: relative;
 }
-.mainText{
-    margin: 50px 5% 5% 5%;
+.mainText{ /*  */
+    margin: 50px 5% 5% 5%; 
     position: absolute;
     background-color: rgba(0, 0, 0, 0.631);
     color: white;
@@ -34,17 +34,17 @@ header a{ /* Skaper mellomrom mellom punktene og fargen blir den samme som hvit 
     border-radius: 10px;
     line-height: 1.5em;
 }
-@media (max-width: 670px){
+@media (max-width: 670px){ /* Endrer størrelsen på boksen når skjermen er mindre enn 670px.  */
   .mainText p{
     height: 50vh;
     overflow-y: scroll;
   }
 }
-#universalDesign{
+#universalDesign{ /* legger til bakgrunnsbilde */
   background-image: url(./damerullestol.jpg); 
   background-size: cover; 
 }
-#rawanda{
+#rawanda{ 
     background-image: url(./rawanda.jpg);
     background-size: cover; 
 }
@@ -71,12 +71,12 @@ header a{ /* Skaper mellomrom mellom punktene og fargen blir den samme som hvit 
     background-image: url(./Maps.png);
     background-size: cover;
 }
-.backgroundphotoSize{
+.backgroundphotoSize{ /*  Definerer størrelsen på bildene. */
     background-size: 100% 100%;
     height: 100vh;
     scroll-snap-align: start;
 }
-.placementBox{
+.placementBox{ /* Definerer størrelsen på boksen, plasserer den i fohold til siden.  */
     height: 100%;
     width: 100%;
     display: flex;
@@ -85,7 +85,7 @@ header a{ /* Skaper mellomrom mellom punktene og fargen blir den samme som hvit 
     justify-content: space-around;
     padding-top: 14px;
 }
-.photoText{
+.photoText{ 
     background-size: cover;
     height: 550px;
     width: 310px;
