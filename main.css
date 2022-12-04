@@ -54,7 +54,6 @@ header>img {
 }
 
 @media (max-width: 800px) {
-
     /* Endrer størrelsen på bilde og teksten i menyen når skjermen er mindre enn 800px. */
     #header a {
         padding: 10px;
@@ -67,7 +66,6 @@ header>img {
 }
 
 @media (max-width: 400px) {
-
     /* Endrer størrelsen på bilde og teksten i menyen når skjermen er mindre enn 400px. */
     #logo {
         height: 60px;
@@ -142,7 +140,6 @@ h2 {
 }
 
 @media (max-width: 800px) {
-
     /* Endrer divene til å liggene under hverandre når skjermen blir mindre */
     #footer {
         grid-template-columns: none;
