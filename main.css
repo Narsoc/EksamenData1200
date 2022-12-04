@@ -87,7 +87,7 @@ font-size: 32px;
 
 @media (max-width: 800px){
   #footer {
-    grid-template-colomns: none;
+    grid-template-columns: none;
     grid-template-rows: auto auto auto;
     gap: 5px;
   }
