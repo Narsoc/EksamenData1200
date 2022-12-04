@@ -12,15 +12,6 @@ body{
   justify-content: space-between;
 }
 
-#header ul{ /* Gjør at topp-og bunn-margen følges*/
-  display: inline-block;
-  padding: 0px;
-}
-
-#header ul > li{ /* Fjerner bullet points og listen legges vannrett */
-  display: inline-block;
-}
-
 #header a{ /* Skaper mellomrom mellom punktene og fargen blir den samme som hvit (fargen satt i #header) */
   color: inherit;
   padding: 10px 25px;
