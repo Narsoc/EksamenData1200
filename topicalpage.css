@@ -123,8 +123,7 @@ header a{ /* Skaper mellomrom mellom punktene og fargen blir den samme som hvit 
 }
 #background{
     background-color: rgba(0, 0, 0, 0.80);
-    height: 100%;
-    padding-top: 30px;
+    height: calc(100vh - 48px);
 } 
 .endText{
     margin: 5px;
