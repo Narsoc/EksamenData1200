@@ -52,8 +52,8 @@ input {
     /* Fjerner default styling på Safari og har hvt bakgrunnsfarge i boksene */
     border-radius: 0px;
     /* Fjerner default styling på Safari og får spisse hjørner */
-    color: grey;
-    /* Fjerner default styling på Safari og endrer fargen til grå */
+    color: black;
+    /* Fjerner default styling på Safari og endrer fargen til sort */
 }
 
 .smallboxes input {
