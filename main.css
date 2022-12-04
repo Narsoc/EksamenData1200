@@ -1,20 +1,20 @@
-html{
+html{ /* Scroller sakte over til ellementet istden for å hoppe direkte. */
   scroll-behavior: smooth;
 }
 
-body{
+body{ /* Definerer font størrelsen. */
   margin: 0 auto;
   font-size: 20px;
 }
 
-.all{
+.all{ /* Setter bakgrunnsfarge, linjehøyde og font. */
   background-color: rgb(251, 235, 212);
   text-align: center;
   line-height: 170%;
   font-family: Barlow Semi Condensed;
 }
 
-#header{
+#header{ /* Definerer farge, posisjon, skrift størrelse, og mellomrommet mellom divene. */
   background-color: black;
   color: white;
   text-align: left;
@@ -24,7 +24,7 @@ body{
   justify-content: space-between;
 }
 
-@media (max-width: 382px){
+@media (max-width: 382px){ /* Når skjermen er mindre enn 382px vil divene endre struktur til å bli lagt i en kolonne */
   #header {
     flex-direction: column;
   }
@@ -52,10 +52,15 @@ body{
   height: 90px;
 }
 
-h1{
+h1{ /* Definerer font størrelse, tykkelse og høyde. */
   font-size: 60px;
   font-weight: normal;
   line-height: 100%;
+}
+@media (max-width: 800px){
+  h1 {
+    font-size: 40px;
+  }
 }
 
 h2{
@@ -63,7 +68,11 @@ text-align: center;
 margin-top: 50px;
 font-size: 32px;
 }
-
+@media (max-width: 800px){
+  h2 {
+    font-size: 24px;
+  }
+}
 #footer{
   left: 0px;
   bottom: 0px;
@@ -94,5 +103,6 @@ font-size: 32px;
     grid-template-columns: none;
     grid-template-rows: auto auto auto;
     gap: 5px;
+    font-size: 15px;
   }
 }
