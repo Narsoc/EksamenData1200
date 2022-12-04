@@ -1,29 +1,30 @@
-.paragraph{
-  max-width: 1000px;
-  text-align: center;
-  margin: auto;
-  padding-left: 5px;
-  padding-right: 5px;
+.paragraph{ 
+  max-width: 1000px; */ Definerer maks størrelse på boksen /*
+  text-align: center; */ Midstiller teksen/*
+  margin: auto; */ Sentrerer paragrafen/*
+  padding-left: 5px; */ setter margin slik at teksten ikke går helt ut i kanten når det er en mindre skjerm. /*
+  padding-right: 5px; */ setter margin slik at teksten ikke går helt ut i kanten når det er en mindre skjerm. /*
 }
 
-h2{
+h2{ */ setter margin på overskrifen. */
   margin-left: 100px;
   margin-right: 100px;
 }
-h1{
+
+h1{ */ setter linjehøyde for overskriften slik at bokstavnene ikke flyter over hverandre på mindre skjermer. /*
   line-height: 100%;
 }
+
 .bold{
-  font-weight: bold;
   -webkit-font-smoothing: antialiased;
 }
 
-.smallimages{
+.smallimages{  */ Definerer bildestørrelsen /*
   width: 350px;
   height: 250px;
 }
 
-@media (max-width: 350px){
+@media (max-width: 350px){ */ Definerer bildestørrelsen når skjermen er mindre enn 350px./*
   .smallimages{
     width: 100vw;
    ;
