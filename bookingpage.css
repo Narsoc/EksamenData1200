@@ -39,6 +39,7 @@ select, input{
   -webkit-appearance:none; /* Fjerner default styling på Safari*/
   background-color: white; /* Fjerner default styling på Safari*/
   border-radius: 0px; /* Fjerner default styling på Safari*/
+  color: grey;
 }
 .smallboxWrapper{
   display: grid;
