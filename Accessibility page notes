@@ -24,7 +24,8 @@ Det er i tillegg lagt til rette for at nettsiden skal fungere på flere nettlese
 det har hovedsakelig blitt lagt vekt på Chrome og Safari da dette er de mest brukte nettleserne.  
  
 Vi har valgt å legge til “Alt” tekst, slik at de som får opplesning av nettsiden skal forstå hva som er på bildene. 
-I tillegg har vi lagt til informasjon om fotograf og hvor bilde er hentet fra slik at alle kan lett finne fram til orginalbilde.  
+I tillegg har vi lagt til informasjon om fotograf og hvor bilde er hentet fra slik at alle kan lett finne fram til orginalbilde. Det er også lagt inn en
+del kommentarer i koden sånn at det skal være enkelt for en annen webutvikler å ta over nettsiden og forstå hva vi har tenkt. 
  
 kontrast
 
