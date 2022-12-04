@@ -7,7 +7,8 @@ På Meny-siden fikk vi ingen «errors», kun «alerts» om at h4 var brukt isted
 men har nå endret til h3 og definert størrelsen via CSS.  
  
 For Booking og Om oss-siden fikk vi heller ingen «errors», kun en «alert». Advarselen var at vi har hoppet over en heading-størrelse.
-Vi har nå endret slik at den går rett fra h1 til h3.
+Vi har nå endret slik at den går rett fra h1 til h3. Vi er klare over at det ikke er mulighet til å kun velge å reservere bord på mandag-torsdag, men dette
+er ikke mulig med typen "date".
  
 Booking siden: Med tanke på Universal Design er det placeholder i skjemaet for å gjøre det mer intuitivt om hvilken informasjon som etterspørres. 
 I «Kommentar» er det mulig å fortelle kafeen om allergener, funksjonshemninger som det må tilrettelegges for, o.l.  
