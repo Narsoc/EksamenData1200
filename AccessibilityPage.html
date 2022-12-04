@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="nb">
+
 <head>
     <title>Accessibility Page</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@200;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@200;600&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="main.css">
 </head>
@@ -15,76 +17,100 @@
 <body>
 
     <div class="all">
-    <header>
-        <div id="header">
-          <a href="index.html"><img id="logo" src="Logo.png" alt="Logo OsloMet Kafé"></a>
-          <ul>
-            <li> <a href="./index.html" style="text-decoration:none;">Velkommen</a></li>
-            <li> <a href="./menu.html" style="text-decoration:none;">Meny</a></li>
-            <li> <a href="./bookingpage.html" style="text-decoration:none;">Bestill bord</a></li>
-            <li> <a href="./omOss.html" style="text-decoration:none;">Om oss</a></li>
-            <li> <a href="#AccessibilityPage" style="text-decoration:none;">Accessibility</a></li>
-            <li> <a href="./topicalPage.html" style="text-decoration:none;">Topical Page</a></li>
-          </ul>
+        <header>
+            <div id="header">
+                <a href="index.html"><img id="logo" src="Logo.png" alt="Logo OsloMet Kafé"></a>
+                <ul>
+                    <li> <a href="./index.html" style="text-decoration:none;">Velkommen</a></li>
+                    <li> <a href="./menu.html" style="text-decoration:none;">Meny</a></li>
+                    <li> <a href="./bookingpage.html" style="text-decoration:none;">Bestill bord</a></li>
+                    <li> <a href="./omOss.html" style="text-decoration:none;">Om oss</a></li>
+                    <li> <a href="#AccessibilityPage" style="text-decoration:none;">Accessibility</a></li>
+                    <li> <a href="./topicalPage.html" style="text-decoration:none;">Topical Page</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <div>
+            <h1 id="AccessibilityPage">ACCESSIBILITY PAGE</h1>
         </div>
-    </header>
 
-    <div>
-      <h1 id="AccessibilityPage">ACCESSIBILITY PAGE</h1>
-   </div>
-      
-  <div class="paragraph">
- 
-    <p> Vi testet en og en side i wave.webaim.org. På Velkommen-siden fikk vi kun «error» på at alternativ tekst ikke var lagt inn på de fire nederste 
-      bildene. Dette er nå lagt inn, samt at fotograf har blitt kreditert. På Meny-siden fikk vi ingen «errors», kun «alerts» om at h4 var brukt 
-      istedenfor h3. Vi ønsket å ikke bruke en så stor fontstørrelse, men har nå endret til h3 og definert størrelsen via CSS. For Booking og Om oss-siden
-      fikk vi heller ingen «errors», kun en «alert». Advarselen var at vi har hoppet over en heading-størrelse. Vi har nå endret slik at den ikke går rett
-      fra h1 til h3. Vi er klare over at det ikke er mulighet til å kun velge å reservere bord på mandag-torsdag, men dette er ikke mulig med typen "date".
-      For Topicalpage-siden fikk vi ingen advarsler og har dermed beholdt sliden slik den er. </p>
- 
-    <p> Med tanke på Universal Design er det placeholdere i skjemaet på Booking-siden for å gjøre det mer intuitivt om hvilken informasjon som etterspørres.
-      I «Kommentar» er det mulig å fortelle kafeen om allergener, funksjonshemninger som det må tilrettelegges for, o.l. Fargevalget på alle sidene er 
-      også konsekvent, f.eks i headeren er det svart bakgrunn med hvit tekst. Dette er for å skape kontraster som gjør det letterefor svaksynte og 
-      fargeblinde. Vi bruker også en del lenker sånn at det er enkelt for brukeren å finne fram til relevant informasjon, ta kontakt med oss og/eller finne 
-      fram til kafeen. På menyen er allergener listet opp som forkortelser for å gjøre det raskere å registrere dem, og det er enkelt å se vegetartilbud da
-      det er markert med en grønn v. <strong>Strong</strong> er brukt på fraser og ord for å understreke viktigheten av dem, samt at <i>italic</i> og 
-      <b>bold</b> er brukt for å gjøre enkelte fraser og ord mer tydelige. <abbr title=Abbreviations>Abbr</abbr> er også brukt for å forklare forkortelser.</p>
+        <div class="paragraph">
 
-    <p> Vi har også tilpasset nettsiden slik at den skal passe til desktop og til mobiltelefoner. Vi har brukt @media query for å tilpasse siden for de 
-      ulike skjermene. Det er i tillegg lagt til rette for at nettsiden skal fungere på flere nettlesere, det har hovedsakelig blitt lagt vekt på Chrome og
-      Safari da dette er de mest brukte nettleserne. </p> 
- 
-    <p> Vi har valgt å legge til “Alt” tekst, slik at de som får opplesning av nettsiden skal forstå hva som er på bildene. I tillegg har vi lagt til 
-      informasjon om fotograf og hvor bilde er hentet fra slik at alle kan lett finne fram til orginalbilde. Det er også lagt inn endel kommentarer i koden
-      sånn at det skal være enkelt for en annen webutvikler å ta over nettsiden og forstå hva vi har tenkt. </p>
-    
-  </div>
+            <p> Vi testet en og en side i wave.webaim.org. På Velkommen-siden fikk vi kun «error» på at alternativ tekst
+                ikke var lagt inn på de fire nederste
+                bildene. Dette er nå lagt inn, samt at fotograf har blitt kreditert. På Meny-siden fikk vi ingen
+                «errors», kun «alerts» om at h4 var brukt
+                istedenfor h3. Vi ønsket å ikke bruke en så stor fontstørrelse, men har nå endret til h3 og definert
+                størrelsen via CSS. For Booking og Om oss-siden
+                fikk vi heller ingen «errors», kun en «alert». Advarselen var at vi har hoppet over en
+                heading-størrelse. Vi har nå endret slik at den ikke går rett
+                fra h1 til h3. Vi er klare over at det ikke er mulighet til å kun velge å reservere bord på
+                mandag-torsdag, men dette er ikke mulig med typen "date".
+                For Topicalpage-siden fikk vi ingen advarsler og har dermed beholdt sliden slik den er. </p>
 
-  
-<img class="smallimages" src="makeCoffee.jpg" alt="Bildet av en ansatt som lager kaffe." title="Fotograf: Rizky Subagja. Bildet er hentet fra https://unsplash.com/.">
-<img class="smallimages" src="Baguette.jpg" alt="Bildet av en nystekt baguette." title="Fotograf: Raphael Nogueira. Bildet er hentet fra https://unsplash.com/.">
-<img class="smallimages" src="cafeOutside.jpg" alt="Bildet av kafén sett uten i fra." title="Fotograf: Mihai Moisa. Bildet er hentet fra https://unsplash.com/.">
-<img class="smallimages" src="coffee.jpg" alt="Bildet av en kaffe laget på Oslomet Kafé." title="Fotograf: Qwabi Black. Bildet er hentet fra https://unsplash.com/.">
+            <p> Med tanke på Universal Design er det placeholdere i skjemaet på Booking-siden for å gjøre det mer
+                intuitivt om hvilken informasjon som etterspørres.
+                I «Kommentar» er det mulig å fortelle kafeen om allergener, funksjonshemninger som det må tilrettelegges
+                for, o.l. Fargevalget på alle sidene er
+                også konsekvent, f.eks i headeren er det svart bakgrunn med hvit tekst. Dette er for å skape kontraster
+                som gjør det letterefor svaksynte og
+                fargeblinde. Vi bruker også en del lenker sånn at det er enkelt for brukeren å finne fram til relevant
+                informasjon, ta kontakt med oss og/eller finne
+                fram til kafeen. På menyen er allergener listet opp som forkortelser for å gjøre det raskere å
+                registrere dem, og det er enkelt å se vegetartilbud da
+                det er markert med en grønn v. <strong>Strong</strong> er brukt på fraser og ord for å understreke
+                viktigheten av dem, samt at <i>italic</i> og
+                <b>bold</b> er brukt for å gjøre enkelte fraser og ord mer tydelige. <abbr
+                    title=Abbreviations>Abbr</abbr> er også brukt for å forklare forkortelser.
+            </p>
 
-<footer>
-  <div id="footer">
-      <div>
-          <h3>OSLOMET KAFÉ OG CATERING</h3>
-          <p><address>Pilestredet 46, 0167 Oslo</address></p>
-      </div>
-      <div id="contactdetails">
-          <h3>KONTAKT OSS</h3>
-          <p>Epost: <a href="mailto:oslometkafe@oslomet.no">oslometkafe@oslomet.no</a></p>
-          <p>Telefon: 12 34 56 78</p>
-      </div>
-      <div>
-          <h3>ÅPNINGSTIDER:</h3>
-          <p>Mandag - Torsdag: 09.00-21.00</p>
-          <p>Fredag - Lørdag: 11.00-00.00</p>
-      </div>
-  </div>
-  </footer>
-</div>
+            <p> Vi har også tilpasset nettsiden slik at den skal passe til desktop og til mobiltelefoner. Vi har brukt
+                @media query for å tilpasse siden for de
+                ulike skjermene. Det er i tillegg lagt til rette for at nettsiden skal fungere på flere nettlesere, det
+                har hovedsakelig blitt lagt vekt på Chrome og
+                Safari da dette er de mest brukte nettleserne. </p>
+
+            <p> Vi har valgt å legge til “Alt” tekst, slik at de som får opplesning av nettsiden skal forstå hva som er
+                på bildene. I tillegg har vi lagt til
+                informasjon om fotograf og hvor bilde er hentet fra slik at alle kan lett finne fram til orginalbilde.
+                Det er også lagt inn endel kommentarer i koden
+                sånn at det skal være enkelt for en annen webutvikler å ta over nettsiden og forstå hva vi har tenkt.
+            </p>
+
+        </div>
+
+
+        <img class="smallimages" src="makeCoffee.jpg" alt="Bildet av en ansatt som lager kaffe."
+            title="Fotograf: Rizky Subagja. Bildet er hentet fra https://unsplash.com/.">
+        <img class="smallimages" src="Baguette.jpg" alt="Bildet av en nystekt baguette."
+            title="Fotograf: Raphael Nogueira. Bildet er hentet fra https://unsplash.com/.">
+        <img class="smallimages" src="cafeOutside.jpg" alt="Bildet av kafén sett uten i fra."
+            title="Fotograf: Mihai Moisa. Bildet er hentet fra https://unsplash.com/.">
+        <img class="smallimages" src="coffee.jpg" alt="Bildet av en kaffe laget på Oslomet Kafé."
+            title="Fotograf: Qwabi Black. Bildet er hentet fra https://unsplash.com/.">
+
+        <footer>
+            <div id="footer">
+                <div>
+                    <h3>OSLOMET KAFÉ OG CATERING</h3>
+                    <p>
+                    <address>Pilestredet 46, 0167 Oslo</address>
+                    </p>
+                </div>
+                <div id="contactdetails">
+                    <h3>KONTAKT OSS</h3>
+                    <p>Epost: <a href="mailto:oslometkafe@oslomet.no">oslometkafe@oslomet.no</a></p>
+                    <p>Telefon: 12 34 56 78</p>
+                </div>
+                <div>
+                    <h3>ÅPNINGSTIDER:</h3>
+                    <p>Mandag - Torsdag: 09.00-21.00</p>
+                    <p>Fredag - Lørdag: 11.00-00.00</p>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
-</html>
 
+</html>
