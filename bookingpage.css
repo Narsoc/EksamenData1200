@@ -41,6 +41,10 @@ select, input{
   border-radius: 0px; /* Fjerner default styling på Safari og får spisse hjørner */
   color: grey; /* Fjerner default styling på Safari og endrer fargen til grå */
 }
+.smallboxes input{
+  width: 100%; /* Hvor store 'Antall gjester', 'Ønsket tidspunkt' og 'Ønsket dato'-boksene er */
+  height: 50px;
+}
 .smallboxWrapper{ /* Definerer hvor stor plass boksene skal ta i forhold til hverandre. */
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -52,11 +56,6 @@ select, input{
     grid-template-rows: 1fr 1fr 1fr;
   }
 }
-.smallboxes input{
-  width: 100%; /* Hvor store 'Antall gjester', 'Ønsket tidspunkt' og 'Ønsket dato'-boksene er */
-  height: 50px;
-}
-
 textarea{ /* Hvor stort område man kan skrive i 'Kommentar' */
   height: 200px;
 }
@@ -80,7 +79,7 @@ button:hover{ /* Definerer rammen rundt Reservasjon-knappen */
 }
 
 
-p a{ /* Setter fargen til svart */
+p a{ /* Setter linken til å være svart */
   color: black;
 }
 
