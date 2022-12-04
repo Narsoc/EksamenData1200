@@ -139,3 +139,8 @@ header a{ /* Skaper mellomrom mellom punktene og fargen blir den samme som hvit 
     height: 100vh;
     overflow-y: scroll;
 }
+.endTextAll > :first-child{
+    margin-top: 48px;
+}
+
+
