@@ -24,16 +24,6 @@ body{ /* Definerer font størrelsen. */
   justify-content: space-between;
 }
 
-@media (max-width: 382px){ /* Når skjermen er mindre enn 382px vil divene endre struktur til å bli lagt i en kolonne */
-  #header {
-    flex-direction: column;
-  }
-}
-
-#header > img{ /* Plasserer menyen på lik høyde med logoen, og bestemmer avstanden mellom menyen og bildet */
-  vertical-align: middle;
-}
-
 #header ul{ /* Gjør at topp-og bunn-margen følges*/
   display: inline-block;
   padding: 0px;
@@ -46,6 +36,34 @@ body{ /* Definerer font størrelsen. */
 #header a{ /* Skaper mellomrom mellom punktene og fargen blir den samme som hvit (fargen satt i #header) */
   color: inherit;
   padding: 10px 25px;
+}
+
+header > img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+@media (max-width: 800px) {
+  #header a {
+    padding: 10px;
+    font-size: 20px;
+  }
+  header > img {
+      height: 150px;
+  }
+}
+
+@media (max-width: 400px) {
+  #logo {
+    height: 60px
+  }
+  #header a {
+    padding: 5px;
+  }
+  header > img {
+      height: 100px;
+  }
 }
 
 #logo{ /* Plassering av logo */
