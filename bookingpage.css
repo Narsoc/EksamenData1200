@@ -80,8 +80,8 @@ button:hover{ /* Definerer rammen rundt Reservasjon-knappen */
 }
 
 
-#link{ /* Setter fargen til svart (altså default fargen) */
-  color: inherit;
+p a{ /* Setter fargen til svart */
+  color: black;
 }
 
 @media (max-width: 330px){
