@@ -96,9 +96,9 @@ font-weight: normal;
     grid-template-columns: none;
     grid-template-rows: auto auto auto;
     gap: 5px;
+    }
   }
   
   #footer div {
     margin-bottom: 24px;
   }
-}
