@@ -29,7 +29,6 @@ h1 {
 }
 
 @media (max-width: 350px) {
-
     /* Definerer bildestørrelsen når skjermen er mindre enn 350px.*/
     .smallimages {
         width: 100vw;
