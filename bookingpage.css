@@ -1,80 +1,111 @@
-.width{ /* Sentrerer teksten og skaper en marg */
-  max-width: 1000px;
-  text-align: center;
-  margin: auto;
+.width {
+    /* Sentrerer teksten og skaper en marg */
+    max-width: 1000px;
+    text-align: center;
+    margin: auto;
 }
 
-form{
-  max-width: 600px; /* Definerer en maks bredde på formen */
-  margin: 0 auto; /* Sentrerer skjemaet */
-  padding-bottom: 30px; /* Skaper et mellomrom mellom reservasjonen og footeren */
+form {
+    max-width: 600px;
+    /* Definerer en maks bredde på formen */
+    margin: 0 auto;
+    /* Sentrerer skjemaet */
+    padding-bottom: 30px;
+    /* Skaper et mellomrom mellom reservasjonen og footeren */
 }
 
-.boxes{ /* Definerer de større input-boksene i reservasjonen */
-  margin: 20px 0;
-  text-align: center;
-  max-width: 600px;
+.boxes {
+    /* Definerer de større input-boksene i reservasjonen */
+    margin: 20px 0;
+    text-align: center;
+    max-width: 600px;
 }
 
-label{ 
-  display: block;
-  padding-bottom: 10px;
-  font-size: 20px;
+label {
+    display: block;
+    padding-bottom: 10px;
+    font-size: 20px;
 }
 
-input, select, textarea{
-  border: 2px solid #777777; /* Definerer fargen på kanten rundt boksene */
-  box-sizing: border-box; /* Total bredde og høyde på boksene */
-  font-size: 20px; /* Skriftstørrelse i boksene */
-  width: 100%; /* Gjør at boksene går fra venstre marg til høyre marg */
-  padding: 10px; /* Definerer høyden på boksene */
-  font-family: Barlow Semi Condensed; /* Fonttype i boksene */
-}
-select, input{
-  -webkit-appearance:none; /* Fjerner default styling på Safari */
-  background-color: white; /* Fjerner default styling på Safari og har hvt bakgrunnsfarge i boksene */
-  border-radius: 0px; /* Fjerner default styling på Safari og får spisse hjørner */
-  color: grey; /* Fjerner default styling på Safari og endrer fargen til grå */
-}
-.smallboxes input{
-  width: 100%; /* Hvor store 'Antall gjester', 'Ønsket tidspunkt' og 'Ønsket dato'-boksene er */
-  height: 50px;
-}
-.smallboxWrapper{ /* Definerer hvor stor plass boksene skal ta i forhold til hverandre. */
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 5px;
-}
-@media (max-width: 500px){ /* Når skjermen er mindre enn 500px vil boksene endre seg fra å ligge bortover til å ligge nedover. */
-  .smallboxWrapper{
-    grid-template-columns: none;
-    grid-template-rows: 1fr 1fr 1fr;
-  }
-}
-textarea{ /* Hvor stort område man kan skrive i 'Kommentar' */
-  height: 200px;
+input,
+select,
+textarea {
+    border: 2px solid #777777;
+    /* Definerer fargen på kanten rundt boksene */
+    box-sizing: border-box;
+    /* Total bredde og høyde på boksene */
+    font-size: 20px;
+    /* Skriftstørrelse i boksene */
+    width: 100%;
+    /* Gjør at boksene går fra venstre marg til høyre marg */
+    padding: 10px;
+    /* Definerer høyden på boksene */
+    font-family: Barlow Semi Condensed;
+    /* Fonttype i boksene */
 }
 
-hr{ /* Prikkete linje mellom de ulike delene i skjemaet*/
-  border: 1px dotted #ccc;
+select,
+input {
+    -webkit-appearance: none;
+    /* Fjerner default styling på Safari */
+    background-color: white;
+    /* Fjerner default styling på Safari og har hvt bakgrunnsfarge i boksene */
+    border-radius: 0px;
+    /* Fjerner default styling på Safari og får spisse hjørner */
+    color: grey;
+    /* Fjerner default styling på Safari og endrer fargen til grå */
 }
 
-button{ /* Design av Reservasjon-knappen */
-  height: 50px;
-  background: black;
-  border: none;
-  color: rgb(251,235,212);
-  font-size: 20px;
-  cursor: pointer;
-  font-family: Barlow Semi Condensed;
+.smallboxes input {
+    width: 100%;
+    /* Hvor store 'Antall gjester', 'Ønsket tidspunkt' og 'Ønsket dato'-boksene er */
+    height: 50px;
 }
 
-button:hover{ /* Definerer rammen rundt Reservasjon-knappen */
-  border: 3px solid rgb(251,235,212);
+.smallboxWrapper {
+    /* Definerer hvor stor plass boksene skal ta i forhold til hverandre. */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+@media (max-width: 500px) {
+
+    /* Når skjermen er mindre enn 500px vil boksene endre seg fra å ligge bortover til å ligge nedover. */
+    .smallboxWrapper {
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+}
+
+textarea {
+    /* Hvor stort område man kan skrive i 'Kommentar' */
+    height: 200px;
+}
+
+hr {
+    /* Prikkete linje mellom de ulike delene i skjemaet*/
+    border: 1px dotted #ccc;
+}
+
+button {
+    /* Design av Reservasjon-knappen */
+    height: 50px;
+    background: black;
+    border: none;
+    color: rgb(251, 235, 212);
+    font-size: 20px;
+    cursor: pointer;
+    font-family: Barlow Semi Condensed;
+}
+
+button:hover {
+    /* Definerer rammen rundt Reservasjon-knappen */
+    border: 3px solid rgb(251, 235, 212);
 }
 
 
-p a{ /* Setter linken til å være svart */
-  color: black;
+p a {
+    /* Setter linken til å være svart */
+    color: black;
 }
-
