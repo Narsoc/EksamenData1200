@@ -12,7 +12,7 @@ header{
 
 header a{ /* Skaper mellomrom mellom punktene og fargen blir den samme som hvit (fargen satt i #header) */
   color: inherit;
-  padding: 10px 25px;
+  padding: 10px 10px;
 }
 
 #scroll{
