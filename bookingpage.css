@@ -54,6 +54,7 @@ input {
     /* Fjerner default styling på Safari og får spisse hjørner */
     color: black;
     /* Fjerner default styling på Safari og endrer fargen til sort */
+    height: 50px;
 }
 
 .smallboxes input {
