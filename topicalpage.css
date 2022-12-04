@@ -26,7 +26,7 @@ header a{ /* Skaper mellomrom mellom punktene og fargen blir den samme som hvit 
     position: relative;
 }
 .mainText{
-    margin: 5%;
+    margin: 50px 5% 5% 5%;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.631);
     color: white;
@@ -83,6 +83,7 @@ header a{ /* Skaper mellomrom mellom punktene og fargen blir den samme som hvit 
     justify-content: center; 
     align-items: center;
     justify-content: space-around;
+    padding-top: 14px;
 }
 .photoText{
     background-size: cover;
