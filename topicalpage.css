@@ -103,7 +103,7 @@ header a{ /* Skaper mellomrom mellom punktene og fargen blir den samme som hvit 
     color: white;
 }
 .placementBoxMaps{
-    opacity: 0.01;
+    opacity: 0.0;
     overflow: hidden;
     border-radius: 450px;
 }
