@@ -22,17 +22,17 @@ header a{ /* Setter tilbake fargen og legger til padding */
     scroll-snap-type: y mandatory; /* Snaper (stopper opp) bilder i Y retning. Altså når man scroller nedover. */
     height: 100vh;
     overflow-y: scroll;
-    scroll-behavior: smooth; /* Gjør at det ikke hopper ned. (flytende overgang) */
+    scroll-behavior: smooth; /* Gjør at det ikke hopper ned når det scrolles. (flytende overgang) */
     position: relative;
 }
-.mainText{ /*  */
+.mainText{ /* Definerer marg, skrift farge og bakgrunnsfarge der hovedteksten på siden skal være. */
     margin: 50px 5% 5% 5%; 
     position: absolute;
     background-color: rgba(0, 0, 0, 0.631);
     color: white;
     padding: 15px;
-    border-radius: 10px;
-    line-height: 1.5em;
+    border-radius: 10px;  /* Setter runde kanter på boksen */
+    line-height: 1.5em;  /* Setter linjeavstand */
 }
 @media (max-width: 670px){ /* Endrer størrelsen på boksen når skjermen er mindre enn 670px.  */
   .mainText p{
@@ -85,7 +85,7 @@ header a{ /* Setter tilbake fargen og legger til padding */
     justify-content: space-around;
     padding-top: 14px;
 }
-.photoText{ 
+.photoText{   /* Setter størrelsen på teksten som er over bilde. */
     background-size: cover;
     height: 550px;
     width: 310px;
@@ -94,53 +94,53 @@ header a{ /* Setter tilbake fargen og legger til padding */
     box-shadow: 0px 0px 60px black;
     border-radius: 5px;
 }
-.photoText p{
+.photoText p{ /* Setter paragrafen til å ha margin og hvit skrift. */
     margin-left: 5px;
     color: white;
 }
-.photoText h3{
+.photoText h3{ /* Setter paragrafen til å ha margin og hvit skrift. */
     margin-left: 5px;
     color: white;
 }
-.placementBoxMaps{
+.placementBoxMaps{ /* Setter boksen kartet er i til å være gjemt. */
     opacity: 0.0;
     overflow: hidden;
     border-radius: 450px;
 }
-.placementBoxMaps:hover{
+.placementBoxMaps:hover{ /* Setter boksen kartet er i til å være synlig når musepekeren er over. */
     opacity: 1.0;
 }
-@media (max-width: 770px){
+@media (max-width: 770px){ /* Fjerner kartboksen når skjermen er mindre enn 770px. Dette gjør siden finere på mindre skjermer.*/
   .placementBoxMaps{
      display: none;
   }
 }
-.textBox{
+.textBox{ /* Definerer størrelsen på tekstboksen */
     position: absolute;
     bottom: 0;
     background: linear-gradient(0deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%);
     width: 100%;
 }
-.textBox a{
+.textBox a{ /* Setter fargen på linken til å være hvit. */
     color:white;
 }
-#background{
+#background{ /* Setter en delvis transparang bakgrunnsfarge over kartet. */
     background-color: rgba(0, 0, 0, 0.80);
     height: 100vh;
 } 
-.endText{
+.endText{ /* Definerer marg, posisjon, farge og padding for teksten på siste side. */
     margin: 5px;
     position: relative;
     color: white;
     padding: 5px;
-    border-radius: 10px;
-    line-height: 1.5em;
+    border-radius: 10px; 
+    line-height: 1.5em; /* Setter linjeavstanden */
 }
-.endTextAll{
+.endTextAll{ /* Lager en scroll funksjon for å kunne lese all tekst når skjermen blir mindre. */
     height: 100vh;
     overflow-y: scroll;
 }
-.endTextAll > :first-child{
+.endTextAll > :first-child{ /* Setter en margin-top på det første barnet til endTextAll. */
     margin-top: 48px;
 }
 
