@@ -81,8 +81,10 @@ font-weight: normal;
   text-align: center;
   box-sizing: border-box;
 }
+
 #footer a{
   color: white;
+}
 
 #footer h3{
   font-weight: 300;
@@ -96,9 +98,5 @@ font-weight: normal;
     grid-template-columns: none;
     grid-template-rows: auto auto auto;
     gap: 5px;
-    }
   }
-  
-  #footer div {
-    margin-bottom: 24px;
-  }
+}
