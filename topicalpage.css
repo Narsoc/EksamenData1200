@@ -135,6 +135,6 @@ header a{ /* Skaper mellomrom mellom punktene og fargen blir den samme som hvit 
     line-height: 1.5em;
 }
 .endTextAll{
-    height: 100vw;
+    height: 100vh;
     overflow-y: scroll;
 }
