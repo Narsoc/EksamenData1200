@@ -56,7 +56,7 @@ header > img {
 
 @media (max-width: 400px) {
   #logo {
-    height: 60px
+    height: 60px;
   }
   #header a {
     padding: 5px;
