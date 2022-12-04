@@ -1,44 +1,57 @@
-#menuSnap{ /* Gjør det mulig å hoppe rett til "Lunsjretter", "Varm mat" og "Kaffe Meny" øverst på siden. */
-  max-width: 500px; /* Definerer maks-størrelse for boksen. */
-  margin: auto; /* Sentrerer boksen. */
-  display: flex; 
-  align-items: center; /* Sentrerer boksene. */
-  justify-content: space-around; /* Sentrerer boksene til å ha likt mellomrom mellom seg. */
+#menuSnap {
+    /* Gjør det mulig å hoppe rett til "Lunsjretter", "Varm mat" og "Kaffe Meny" øverst på siden. */
+    max-width: 500px;
+    /* Definerer maks-størrelse for boksen. */
+    margin: auto;
+    /* Sentrerer boksen. */
+    display: flex;
+    align-items: center;
+    /* Sentrerer boksene. */
+    justify-content: space-around;
+    /* Sentrerer boksene til å ha likt mellomrom mellom seg. */
 }
 
-#menuSnap a{
-  color: black; /* Endrer fargen tilbake til svart. */
+#menuSnap a {
+    color: black;
+    /* Endrer fargen tilbake til svart. */
 }
 
-#coffee{
-   max-width: 600px; /* Definerer maks-størrelse for boksen. */
-   margin: auto; /* Sentrerer boksen. */
-   display: flex;
-   align-items: center; /* Sentrerer boksene. */
-   justify-content: space-around; /* Sentrerer boksene til å ha likt mellomrom mellom seg. */
-} 
-
-@media (max-width: 450px){
-  #coffee{
-    flex-direction: column; /* Setter retning til kolonner. (altså bortover) */
-  }
+#coffee {
+    max-width: 600px;
+    /* Definerer maks-størrelse for boksen. */
+    margin: auto;
+    /* Sentrerer boksen. */
+    display: flex;
+    align-items: center;
+    /* Sentrerer boksene. */
+    justify-content: space-around;
+    /* Sentrerer boksene til å ha likt mellomrom mellom seg. */
 }
 
-.allergy{ 
-  margin-top: 50px;
-  margin-bottom: 30px;
+@media (max-width: 450px) {
+    #coffee {
+        flex-direction: column;
+        /* Setter retning til kolonner. (altså bortover) */
+    }
 }
 
-.allergens{ /* Alle allergener blir satt til å være kursiv. */
-  font-style: italic;
+.allergy {
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 
-.vegan{ /* Setter en stor "V" for å symbolisere at det er vegetar.*/
-  color: green;
-  font-weight: bold;
-  font-size: larger;
+.allergens {
+    /* Alle allergener blir satt til å være kursiv. */
+    font-style: italic;
 }
 
-h3{
-  margin-top: 30px;
+.vegan {
+    /* Setter en stor "V" for å symbolisere at det er vegetar.*/
+    color: green;
+    font-weight: bold;
+    font-size: larger;
+}
+
+h3 {
+    margin-top: 30px;
 }
