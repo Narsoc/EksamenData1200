@@ -93,9 +93,9 @@ font-size: 32px;
 
 #footer h3{ /* Setter linjeavstanden, og setter marg. */
   font-weight: normal;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   letter-spacing: 1px;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 @media (max-width: 800px){ /* Endrer divene til å liggene under hverandre når skjermen blir mindre */
@@ -104,6 +104,6 @@ font-size: 32px;
     grid-template-rows: auto auto auto;
     gap: 20px;
     font-size: 15px;
-    margin: 0px;
+    margin-bottom: 0px;
   }
 }
