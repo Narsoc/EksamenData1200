@@ -84,8 +84,3 @@ p a{ /* Setter fargen til svart */
   color: black;
 }
 
-@media (max-width: 330px){
-  #Booking{
-    line-height: 100%;
-  }
-}
