@@ -71,7 +71,7 @@ header a{ /* Skaper mellomrom mellom punktene og fargen blir den samme som hvit 
 .backgroundphotoSize{
     background-size: 100% 100%;
     height: 100vh;
-    height: calc(100vh - 38px);
+    height: calc(100vh - 48px);
     scroll-snap-align: start;
 }
 .placementBox{
@@ -135,6 +135,6 @@ header a{ /* Skaper mellomrom mellom punktene og fargen blir den samme som hvit 
     line-height: 1.5em;
 }
 .endTextAll{
-    height: 100vh;
+    height: calc(100vh - 48px);
     overflow-y: scroll;
 }
