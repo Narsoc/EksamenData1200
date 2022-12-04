@@ -71,7 +71,8 @@ font-size: 32px;
   width: 100%;
   background-color: black;
   color: white;
-  display: flex;
+  display: grid;
+  grid-template-colomns: 1fr 1fr 1fr;
   padding: 20px 50px;
   text-align: center;
   box-sizing: border-box;
@@ -86,18 +87,11 @@ font-size: 32px;
 
 @media (max-width: 800px){
   #footer {
-    flex-direction: column;
+    grid-template-colomns: none;
+    grid-template-rows: 1fr 1fr 1fr;
   }
   
   #footer div {
     margin-bottom: 24px;
   }
-}
-
-#contactdetails{
-  flex-grow: 2;
-}
-
-#contactdetails a{
-  color: inherit;
 }
